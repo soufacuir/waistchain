@@ -3,17 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-  <meta name="description" content="Paille & Soleil – Sacs et chapeaux en paille artisanaux du Maroc. Pack Paille &amp; Soleil 249 DH — 3 coloris au choix. Livraison gratuite, paiement à la livraison.">
-  <meta name="keywords" content="sac paille maroc, chapeau paille, artisanat marocain, sac été, accessoires plage">
-  <meta property="og:title" content="Paille & Soleil – Sacs & Chapeaux Artisanaux 🇲🇦">
-  <meta property="og:description" content="Découvrez nos sacs et chapeaux en paille artisanaux. Livraison gratuite partout au Maroc. Paiement à la livraison.">
-  <meta property="og:image" content="https://strawbag.pages.dev/assets/photo-1.webp">
+  <meta name="description" content="Waist Chain – Chaînes de taille dorées du Maroc. 1 pièce à 169 DH, Pack 2 pièces à 229 DH — 3 styles au choix. Livraison gratuite, paiement à la livraison.">
+  <meta name="keywords" content="chaîne de taille, waist chain, bijoux maroc, ceinture dorée, bijoux été, accessoires plage, chaîne dorée">
+  <meta property="og:title" content="Waist Chain – Chaînes de Taille Dorées 🇲🇦">
+  <meta property="og:description" content="Découvrez nos chaînes de taille dorées — 3 styles exclusifs. Livraison gratuite partout au Maroc. Paiement à la livraison.">
+  <meta property="og:image" content="https://waistchain.pages.dev/assets/photo-1.webp">
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary_large_image">
-  <meta property="og:url" content="https://strawbag.pages.dev/">
+  <meta property="og:url" content="https://waistchain.pages.dev/">
   <meta name="facebook-domain-verification" content="7grsksueei6imy3y9fcnaf571l6c7f" />
-  <link rel="canonical" href="https://strawbag.pages.dev/">
-  <title>Paille & Soleil 🇲🇦 – Sacs & Chapeaux en Paille | Artisanat Marocain</title>
+  <link rel="canonical" href="https://waistchain.pages.dev/">
+  <title>Waist Chain 🇲🇦 – Chaînes de Taille Dorées | Bijoux Marocains</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="dns-prefetch" href="https://connect.facebook.net">
@@ -377,8 +377,9 @@
     }
     .color-option input:checked + .color-option-label { border-color: var(--gold); background: var(--gold-pale); }
     .color-dot { width: 22px; height: 22px; border-radius: 50%; flex-shrink: 0; border: 2px solid rgba(255,255,255,0.8); box-shadow: 0 2px 6px rgba(0,0,0,0.2); overflow: hidden; }
-    .color-dot.sable-beige { background: linear-gradient(to right, #C4A67E 50%, #E8D5B0 50%); }
-    .color-dot.sable-noir { background: linear-gradient(to right, #D4B896 50%, #1a1a1a 50%); }
+    .color-dot.sable-beige, .color-dot.style-fleurs { background: linear-gradient(to right, #E8C4B8 50%, #C9A96E 50%); }
+    .color-dot.sable-noir, .color-dot.style-etoiles { background: linear-gradient(to right, #9DB8C9 50%, #C9A96E 50%); }
+    .color-dot.style-pieces { background: linear-gradient(to right, #C9A96E 50%, #E8D5B0 50%); }
     .color-option-text { font-size: 11px; font-weight: 600; color: var(--brown); }
 
     /* City switcher */
@@ -528,13 +529,14 @@
 
     /* ─── COLORS ─── */
     .colors { background: var(--sand); }
-    .colors-grid { display: flex; flex-wrap: nowrap; justify-content: center; gap: 40px; max-width: 380px; margin: 0 auto; }
     .color-item { display: flex; flex-direction: column; align-items: center; gap: 10px; }
     .color-swatch { width: 68px; height: 68px; border-radius: 50%; box-shadow: var(--shadow); border: 4px solid var(--white); overflow: hidden; }
-    .color-swatch.sable-beige { background: linear-gradient(to right, #C4A67E 50%, #E8D5B0 50%); }
-    .color-swatch.sable-noir { background: linear-gradient(to right, #D4B896 50%, #1a1a1a 50%); }
+    .color-swatch.sable-beige, .color-swatch.style-fleurs { background: linear-gradient(to right, #E8C4B8 50%, #C9A96E 50%); }
+    .color-swatch.sable-noir, .color-swatch.style-etoiles { background: linear-gradient(to right, #9DB8C9 50%, #C9A96E 50%); }
+    .color-swatch.style-pieces { background: linear-gradient(to right, #C9A96E 50%, #E8D5B0 50%); }
     .color-name { font-family: 'Playfair Display', serif; font-size: 15px; font-weight: 600; color: var(--brown); }
     .color-sub { font-size: 12px; color: var(--brown-mid); margin-top: -8px; }
+    .colors-grid { display: flex; flex-wrap: nowrap; justify-content: center; gap: 40px; max-width: 560px; margin: 0 auto; }
 
     /* ─── TESTIMONIALS ─── */
     .testimonials { background: var(--cream); }
@@ -624,12 +626,12 @@
 
 <!-- Header -->
 <header>
-  <a href="#" class="logo" aria-label="Paille & Soleil - Accueil">
+  <a href="#" class="logo" aria-label="Waist Chain - Accueil">
     <span class="logo-main">
-      Paille <span class="logo-amp">&</span> Soleil
+      Waist <span class="logo-amp">Chain</span>
       <span class="logo-flag" aria-label="Maroc">🇲🇦</span>
     </span>
-    <span class="logo-sub">Artisanat Marocain</span>
+    <span class="logo-sub">Bijoux Marocains</span>
   </a>
 </header>
 
@@ -653,10 +655,10 @@
   <div class="hero-overlay" aria-hidden="true"></div>
   <div class="hero-content">
     <h1 id="hero-heading">
-      L'art de la <em>paille</em><br>façonné à la main
+      La <em>chaîne de taille</em><br>qui te met en valeur
     </h1>
     <p class="hero-desc">
-      Sacs et chapeaux artisanaux du Maroc — élégance naturelle pour chaque saison. Livraison gratuite, paiement à la livraison.
+      Chaînes de taille dorées — 3 styles exclusifs pour sublimer votre silhouette. Livraison gratuite, paiement à la livraison.
     </p>
     <a href="#commander" class="hero-cta" aria-label="Commander maintenant">
       <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/></svg>
@@ -715,65 +717,94 @@
 <!-- Packs Section -->
 <section class="packs" id="packs" aria-labelledby="packs-heading">
   <p class="section-label">COLLECTION ÉTÉ 2026</p>
-  <h2 class="section-title" id="packs-heading">Pack Paille &amp; <span>Soleil</span></h2>
-  <p class="section-desc">Sac + chapeau assortis, fabriqués à la main au Maroc — choisissez votre coloris préféré.</p>
+  <h2 class="section-title" id="packs-heading">Nos <span>Chaînes de Taille</span></h2>
+  <p class="section-desc">3 styles exclusifs, fabriqués avec soin — choisissez celui qui vous correspond.</p>
 
   <div class="packs-grid">
 
-    <!-- Sable & Blanc -->
-    <div class="pack-card" data-color="Sable &amp; Blanc">
+    <!-- Fleurs -->
+    <div class="pack-card" data-color="Fleurs">
       <span class="pack-badge">⭐ Best-seller</span>
       <div class="pack-slideshow" aria-hidden="true">
         <div class="pack-slide pack-slide--product is-active">
-          <img src="./images/pack-beige-product.webp" alt="Pack Paille &amp; Soleil coloris Sable &amp; Blanc – produit" loading="lazy" width="400" height="400">
+          <img src="./images/style-fleurs-product.webp" alt="Chaîne de taille Fleurs – produit" loading="lazy" width="400" height="400">
         </div>
         <div class="pack-slide">
-          <img src="./images/pack-beige-lifestyle.webp" alt="Pack Paille &amp; Soleil coloris Sable &amp; Blanc – lifestyle" loading="lazy" width="400" height="400">
+          <img src="./images/style-fleurs-lifestyle.webp" alt="Chaîne de taille Fleurs – lifestyle" loading="lazy" width="400" height="400">
         </div>
       </div>
       <div class="pack-body">
-        <div class="pack-name">Pack Paille &amp; Soleil</div>
-        <div class="pack-variant">Sable &amp; Blanc</div>
-        <ul class="pack-includes" aria-label="Contenu du pack Sable &amp; Blanc">
-          <li>1 sac en paille artisanal</li>
-          <li>1 chapeau en paille assorti</li>
+        <div class="pack-name">Chaîne de Taille</div>
+        <div class="pack-variant">Fleurs</div>
+        <ul class="pack-includes" aria-label="Contenu – style Fleurs">
+          <li>1 chaîne de taille dorée</li>
+          <li>Motif floral délicat</li>
           <li>Livraison gratuite</li>
         </ul>
-        <div class="pack-price" aria-label="Prix : 249 dirhams">
-          <span class="pack-price-amount">249</span>
+        <div class="pack-price" aria-label="Prix : 169 dirhams">
+          <span class="pack-price-amount">169</span>
           <span class="pack-price-currency">DH</span>
         </div>
-        <button class="pack-cta" onclick="selectPackVariant('Sable &amp; Blanc')" aria-label="Choisir le coloris Sable &amp; Blanc à 249 DH">
-          Commander ce pack
+        <button class="pack-cta" onclick="selectPackVariant('Fleurs')" aria-label="Choisir le style Fleurs à 169 DH">
+          Commander ce style
         </button>
       </div>
     </div>
 
-    <!-- Sable & Noir -->
-    <div class="pack-card" data-color="Sable &amp; Noir">
+    <!-- Étoiles de mer -->
+    <div class="pack-card" data-color="Étoiles de mer">
       <span class="pack-badge">⭐ Best-seller</span>
       <div class="pack-slideshow" aria-hidden="true">
         <div class="pack-slide pack-slide--product is-active">
-          <img src="./images/pack-noir-product.webp" alt="Pack Paille &amp; Soleil coloris Sable &amp; Noir – produit" loading="lazy" width="400" height="400">
+          <img src="./images/style-etoiles-product.webp" alt="Chaîne de taille Étoiles de mer – produit" loading="lazy" width="400" height="400">
         </div>
         <div class="pack-slide">
-          <img src="./images/pack-noir-lifestyle.webp" alt="Pack Paille &amp; Soleil coloris Sable &amp; Noir – lifestyle" loading="lazy" width="400" height="400">
+          <img src="./images/style-etoiles-lifestyle.webp" alt="Chaîne de taille Étoiles de mer – lifestyle" loading="lazy" width="400" height="400">
         </div>
       </div>
       <div class="pack-body">
-        <div class="pack-name">Pack Paille &amp; Soleil</div>
-        <div class="pack-variant">Sable &amp; Noir</div>
-        <ul class="pack-includes" aria-label="Contenu du pack Sable &amp; Noir">
-          <li>1 sac en paille artisanal</li>
-          <li>1 chapeau en paille assorti</li>
+        <div class="pack-name">Chaîne de Taille</div>
+        <div class="pack-variant">Étoiles de mer</div>
+        <ul class="pack-includes" aria-label="Contenu – style Étoiles de mer">
+          <li>1 chaîne de taille dorée</li>
+          <li>Motif étoile de mer</li>
           <li>Livraison gratuite</li>
         </ul>
-        <div class="pack-price" aria-label="Prix : 249 dirhams">
-          <span class="pack-price-amount">249</span>
+        <div class="pack-price" aria-label="Prix : 169 dirhams">
+          <span class="pack-price-amount">169</span>
           <span class="pack-price-currency">DH</span>
         </div>
-        <button class="pack-cta" onclick="selectPackVariant('Sable &amp; Noir')" aria-label="Choisir le coloris Sable &amp; Noir à 249 DH">
-          Commander ce pack
+        <button class="pack-cta" onclick="selectPackVariant('Étoiles de mer')" aria-label="Choisir le style Étoiles de mer à 169 DH">
+          Commander ce style
+        </button>
+      </div>
+    </div>
+
+    <!-- Pièces -->
+    <div class="pack-card" data-color="Pièces">
+      <span class="pack-badge">✨ Nouveau</span>
+      <div class="pack-slideshow" aria-hidden="true">
+        <div class="pack-slide pack-slide--product is-active">
+          <img src="./images/style-pieces-product.webp" alt="Chaîne de taille Pièces – produit" loading="lazy" width="400" height="400">
+        </div>
+        <div class="pack-slide">
+          <img src="./images/style-pieces-lifestyle.webp" alt="Chaîne de taille Pièces – lifestyle" loading="lazy" width="400" height="400">
+        </div>
+      </div>
+      <div class="pack-body">
+        <div class="pack-name">Chaîne de Taille</div>
+        <div class="pack-variant">Pièces</div>
+        <ul class="pack-includes" aria-label="Contenu – style Pièces">
+          <li>1 chaîne de taille dorée</li>
+          <li>Motif pièces dorées</li>
+          <li>Livraison gratuite</li>
+        </ul>
+        <div class="pack-price" aria-label="Prix : 169 dirhams">
+          <span class="pack-price-amount">169</span>
+          <span class="pack-price-currency">DH</span>
+        </div>
+        <button class="pack-cta" onclick="selectPackVariant('Pièces')" aria-label="Choisir le style Pièces à 169 DH">
+          Commander ce style
         </button>
       </div>
     </div>
@@ -796,69 +827,82 @@
         <p class="form-subtitle">Tous les champs marqués d'un <span style="color:var(--gold-dark)">*</span> sont obligatoires.</p>
 
         <form id="order-form" novalidate>
-          <!-- Pack Selection (hidden — single pack, color chosen via cards above) -->
-          <div class="form-group" id="pack-section" style="display:none" aria-hidden="true">
-            <label>Choisissez votre pack <span>*</span></label>
-            <div class="pack-selector" role="radiogroup" aria-label="Sélection du pack">
+          <!-- Pack Selection -->
+          <div class="form-group" id="pack-section">
+            <label>Choisissez votre offre <span>*</span></label>
+            <div class="pack-selector" role="radiogroup" aria-label="Sélection de l'offre">
               <div class="pack-option">
-                <span class="pack-popular pack-discount">Discount: 2 à 329 DH</span>
-                <input type="radio" id="pack-solo" name="pack" value="Pack Solo – 199 DH" data-price="199">
+                <input type="radio" id="pack-solo" name="pack" value="1 Chaîne – 169 DH" data-price="169" checked>
                 <label class="pack-option-label" for="pack-solo">
-                  <span class="pack-option-name">Solo</span>
-                  <span class="pack-option-price">199</span>
+                  <span class="pack-option-name">1 Chaîne</span>
+                  <span class="pack-option-price">169</span>
                   <span class="pack-option-dh">DH</span>
                 </label>
               </div>
               <div class="pack-option">
-                <span class="pack-popular">⭐ Populaire</span>
-                <input type="radio" id="pack-duo" name="pack" value="Pack Paille &amp; Soleil – 249 DH" data-price="249" checked>
+                <span class="pack-popular">⭐ Économisez</span>
+                <input type="radio" id="pack-duo" name="pack" value="Pack 2 Chaînes – 229 DH" data-price="229">
                 <label class="pack-option-label" for="pack-duo">
-                  <span class="pack-option-name">P&amp;S</span>
-                  <span class="pack-option-price">249</span>
+                  <span class="pack-option-name">Pack 2</span>
+                  <span class="pack-option-price">229</span>
                   <span class="pack-option-dh">DH</span>
                 </label>
               </div>
             </div>
-            <div class="field-error" id="pack-error">Veuillez choisir un pack.</div>
+            <div class="field-error" id="pack-error">Veuillez choisir une offre.</div>
           </div>
 
-          <!-- Color 1 -->
+          <!-- Style 1 -->
           <div class="form-group" id="color1-group">
-            <label id="color1-label">Couleur de votre ensemble (sac + chapeau) <span style="color:var(--gold-dark)">*</span></label>
+            <label id="color1-label">Style de votre chaîne <span style="color:var(--gold-dark)">*</span></label>
             <div class="color-selector" role="radiogroup" aria-labelledby="color1-label">
               <div class="color-option">
-                <input type="radio" id="color-beige" name="color" value="Sable & Blanc" checked>
-                <label class="color-option-label" for="color-beige">
-                  <div class="color-dot sable-beige" aria-hidden="true"></div>
-                  <span class="color-option-text">Sable & Blanc</span>
+                <input type="radio" id="color-fleurs" name="color" value="Fleurs" checked>
+                <label class="color-option-label" for="color-fleurs">
+                  <div class="color-dot style-fleurs" aria-hidden="true"></div>
+                  <span class="color-option-text">Fleurs</span>
                 </label>
               </div>
               <div class="color-option">
-                <input type="radio" id="color-noir" name="color" value="Sable & Noir">
-                <label class="color-option-label" for="color-noir">
-                  <div class="color-dot sable-noir" aria-hidden="true"></div>
-                  <span class="color-option-text">Sable & Noir</span>
+                <input type="radio" id="color-etoiles" name="color" value="Étoiles de mer">
+                <label class="color-option-label" for="color-etoiles">
+                  <div class="color-dot style-etoiles" aria-hidden="true"></div>
+                  <span class="color-option-text">Étoiles de mer</span>
+                </label>
+              </div>
+              <div class="color-option">
+                <input type="radio" id="color-pieces" name="color" value="Pièces">
+                <label class="color-option-label" for="color-pieces">
+                  <div class="color-dot style-pieces" aria-hidden="true"></div>
+                  <span class="color-option-text">Pièces</span>
                 </label>
               </div>
             </div>
           </div>
 
-          <!-- Color 2 (shown when qty≥2) -->
+          <!-- Style 2 (shown when Pack 2 selected or qty≥2) -->
           <div class="form-group" id="color2-group" style="display:none">
-            <label id="color2-label">Couleur du 2ème ensemble <span style="color:var(--gold-dark)">*</span></label>
+            <label id="color2-label">Style de la 2ème chaîne <span style="color:var(--gold-dark)">*</span></label>
             <div class="color-selector" role="radiogroup" aria-labelledby="color2-label">
               <div class="color-option">
-                <input type="radio" id="color2-beige" name="color2" value="Sable & Blanc" checked>
-                <label class="color-option-label" for="color2-beige">
-                  <div class="color-dot sable-beige" aria-hidden="true"></div>
-                  <span class="color-option-text">Sable & Blanc</span>
+                <input type="radio" id="color2-fleurs" name="color2" value="Fleurs" checked>
+                <label class="color-option-label" for="color2-fleurs">
+                  <div class="color-dot style-fleurs" aria-hidden="true"></div>
+                  <span class="color-option-text">Fleurs</span>
                 </label>
               </div>
               <div class="color-option">
-                <input type="radio" id="color2-noir" name="color2" value="Sable & Noir">
-                <label class="color-option-label" for="color2-noir">
-                  <div class="color-dot sable-noir" aria-hidden="true"></div>
-                  <span class="color-option-text">Sable & Noir</span>
+                <input type="radio" id="color2-etoiles" name="color2" value="Étoiles de mer">
+                <label class="color-option-label" for="color2-etoiles">
+                  <div class="color-dot style-etoiles" aria-hidden="true"></div>
+                  <span class="color-option-text">Étoiles de mer</span>
+                </label>
+              </div>
+              <div class="color-option">
+                <input type="radio" id="color2-pieces" name="color2" value="Pièces">
+                <label class="color-option-label" for="color2-pieces">
+                  <div class="color-dot style-pieces" aria-hidden="true"></div>
+                  <span class="color-option-text">Pièces</span>
                 </label>
               </div>
             </div>
@@ -1015,11 +1059,11 @@
         <h3 class="success-title">Commande confirmée !</h3>
         <div class="success-summary" aria-label="Récapitulatif de commande">
           <div class="success-row">
-            <span class="success-row-label">Pack</span>
+            <span class="success-row-label">Offre</span>
             <span class="success-row-value" id="s-pack">—</span>
           </div>
           <div class="success-row">
-            <span class="success-row-label">Couleur</span>
+            <span class="success-row-label">Style</span>
             <span class="success-row-value" id="s-color">—</span>
           </div>
           <div class="success-row success-row-total">
@@ -1046,39 +1090,39 @@
 <!-- Gallery Section -->
 <section class="gallery" id="galerie" aria-labelledby="gallery-heading">
   <p class="section-label">Galerie</p>
-  <h2 class="section-title" id="gallery-heading">L'artisanat <span>en images</span></h2>
-  <p class="section-desc">Chaque pièce est fabriquée à la main par des artisans marocains — unicité et authenticité garanties.</p>
+  <h2 class="section-title" id="gallery-heading">La chaîne <span>en images</span></h2>
+  <p class="section-desc">Portez-la à la plage, en ville, en soirée — elle sublime chaque tenue.</p>
 
   <div class="gallery-grid" role="list">
     <div class="gallery-item" role="listitem">
-      <img src="./images/galerie-collage-styles-multiples.webp" alt="Sac en paille porté de plusieurs façons – collage de styles" loading="lazy" width="600" height="600">
+      <img src="./images/galerie-collage-styles-multiples.webp" alt="Chaîne de taille dorée portée de plusieurs façons – collage de styles" loading="lazy" width="600" height="600">
       <div class="gallery-overlay">
         <div class="gallery-overlay-text">
-          <strong>Un sac, plusieurs styles</strong>
-          <span>S'adapte à toutes tes sorties</span>
+          <strong>Un bijou, mille façons</strong>
+          <span>S'adapte à toutes tes tenues</span>
         </div>
       </div>
     </div>
     <div class="gallery-item" role="listitem">
-      <img src="./images/galerie-coucher-soleil-plage.webp" alt="Sac en paille porté au coucher du soleil sur la plage" loading="lazy" width="400" height="400">
+      <img src="./images/galerie-coucher-soleil-plage.webp" alt="Chaîne de taille dorée portée au coucher du soleil sur la plage" loading="lazy" width="400" height="400">
       <div class="gallery-overlay">
         <div class="gallery-overlay-text">
           <strong>L'élégance au coucher du soleil</strong>
-          <span>Ton compagnon d'été</span>
+          <span>Ton accessoire d'été incontournable</span>
         </div>
       </div>
     </div>
     <div class="gallery-item" role="listitem">
-      <img src="./images/galerie-the-marocain-riad.webp" alt="Sac en paille posé dans un riad marocain lors d'un thé" loading="lazy" width="400" height="400">
+      <img src="./images/galerie-the-marocain-riad.webp" alt="Chaîne de taille dans un riad marocain" loading="lazy" width="400" height="400">
       <div class="gallery-overlay">
         <div class="gallery-overlay-text">
-          <strong>Une touche d'authenticité</strong>
-          <span>L'artisanat marocain à l'honneur</span>
+          <strong>Une touche dorée</strong>
+          <span>Le bijou qui fait toute la différence</span>
         </div>
       </div>
     </div>
     <div class="gallery-item" role="listitem">
-      <img src="./images/galerie-piscine-luxe.webp" alt="Sac en paille au bord d'une piscine de luxe" loading="lazy" width="400" height="400">
+      <img src="./images/galerie-piscine-luxe.webp" alt="Chaîne de taille au bord d'une piscine de luxe" loading="lazy" width="400" height="400">
       <div class="gallery-overlay">
         <div class="gallery-overlay-text">
           <strong>Détente au bord de l'eau</strong>
@@ -1087,34 +1131,34 @@
       </div>
     </div>
     <div class="gallery-item" role="listitem">
-      <img src="./images/galerie-capacite-rangement.webp" alt="Intérieur spacieux du sac en paille – capacité de rangement" loading="lazy" width="400" height="400">
+      <img src="./images/galerie-capacite-rangement.webp" alt="Détail de la chaîne de taille – légèreté et confort" loading="lazy" width="400" height="400">
       <div class="gallery-overlay">
         <div class="gallery-overlay-text">
-          <strong>Spacieux et pratique</strong>
-          <span>Tout ce dont tu as besoin, en un sac</span>
+          <strong>Légère et confortable</strong>
+          <span>Tu oublieras même que tu la portes</span>
         </div>
       </div>
     </div>
     <div class="gallery-item" role="listitem">
-      <img src="./images/galerie-interieur-doublure-qualite.webp" alt="Doublure intérieure de qualité du sac en paille" loading="lazy" width="400" height="400">
+      <img src="./images/galerie-interieur-doublure-qualite.webp" alt="Finition soignée de la chaîne de taille dorée" loading="lazy" width="400" height="400">
       <div class="gallery-overlay">
         <div class="gallery-overlay-text">
           <strong>Une finition soignée</strong>
-          <span>Doublure résistante, qualité durable</span>
+          <span>Qualité et élégance durables</span>
         </div>
       </div>
     </div>
     <div class="gallery-item" role="listitem">
-      <img src="./images/lifestyle-femme-pack-sable-noir-essaouira-2.webp" alt="Femme élégante face à l'océan à Essaouira avec sac en paille" loading="lazy" width="900" height="1125">
+      <img src="./images/lifestyle-femme-pack-sable-noir-essaouira-2.webp" alt="Femme élégante avec chaîne de taille dorée à Essaouira" loading="lazy" width="900" height="1125">
       <div class="gallery-overlay">
         <div class="gallery-overlay-text">
-          <strong>Élégance face à l'océan</strong>
-          <span>Le charme intemporel d'Essaouira</span>
+          <strong>Élégance au naturel</strong>
+          <span>Le charme d'un bijou doré</span>
         </div>
       </div>
     </div>
     <div class="gallery-item" role="listitem">
-      <img src="./images/lifestyle-femme-pack-sable-noir-plage.webp" alt="Femme en bord de mer avec sac et chapeau en paille Sable & Noir" loading="lazy" width="900" height="1125">
+      <img src="./images/lifestyle-femme-pack-sable-noir-plage.webp" alt="Femme en bord de mer portant une chaîne de taille dorée" loading="lazy" width="900" height="1125">
       <div class="gallery-overlay">
         <div class="gallery-overlay-text">
           <strong>Liberté en bord de mer</strong>
@@ -1125,19 +1169,26 @@
   </div>
 </section>
 
-<!-- Colors Section -->
+<!-- Styles Section -->
 <section class="colors" aria-labelledby="colors-heading">
-  <p class="section-label">Coloris disponibles</p>
-  <h2 class="section-title" id="colors-heading">Sac <span>&</span> chapeau assortis</h2>
-  <p class="section-desc">Une seule couleur choisie habille les deux pièces — un look coordonné sans effort.</p>
+  <p class="section-label">Styles disponibles</p>
+  <h2 class="section-title" id="colors-heading">3 <span>designs</span> exclusifs</h2>
+  <p class="section-desc">Choisissez le style qui vous correspond — ou offrez-vous le Pack 2 pour en avoir deux.</p>
   <div class="colors-grid" role="list">
     <div class="color-item" role="listitem">
-      <div class="color-swatch sable-noir" aria-label="Coloris Sable & Noir"></div>
-      <div class="color-name">Sable & Noir</div>
+      <div class="color-swatch style-fleurs" aria-label="Style Fleurs"></div>
+      <div class="color-name">Fleurs</div>
+      <div class="color-sub">Design floral</div>
     </div>
     <div class="color-item" role="listitem">
-      <div class="color-swatch sable-beige" aria-label="Coloris Sable & Blanc"></div>
-      <div class="color-name">Sable & Blanc</div>
+      <div class="color-swatch style-etoiles" aria-label="Style Étoiles de mer"></div>
+      <div class="color-name">Étoiles de mer</div>
+      <div class="color-sub">Design marin</div>
+    </div>
+    <div class="color-item" role="listitem">
+      <div class="color-swatch style-pieces" aria-label="Style Pièces"></div>
+      <div class="color-name">Pièces</div>
+      <div class="color-sub">Design pièces dorées</div>
     </div>
   </div>
 </section>
@@ -1153,7 +1204,7 @@
       <div class="testimonial-stars" aria-label="5 étoiles sur 5">
         <span class="star" aria-hidden="true">★</span><span class="star" aria-hidden="true">★</span><span class="star" aria-hidden="true">★</span><span class="star" aria-hidden="true">★</span><span class="star" aria-hidden="true">★</span>
       </div>
-      <p class="testimonial-text">"Magnifique qualité ! Le sac et le chapeau sont encore plus beaux en vrai qu'en photo. J'ai commandé le coloris Sable &amp; Blanc — ravie de mon achat. Livraison rapide à Casablanca !"</p>
+      <p class="testimonial-text">"Magnifique qualité ! La chaîne est encore plus belle en vrai qu'en photo. J'ai commandé le style Fleurs — ravie de mon achat. Livraison rapide à Casablanca !"</p>
       <div class="testimonial-author">
         <div class="author-avatar" aria-hidden="true">S</div>
         <div>
@@ -1166,7 +1217,7 @@
       <div class="testimonial-stars" aria-label="5 étoiles sur 5">
         <span class="star" aria-hidden="true">★</span><span class="star" aria-hidden="true">★</span><span class="star" aria-hidden="true">★</span><span class="star" aria-hidden="true">★</span><span class="star" aria-hidden="true">★</span>
       </div>
-      <p class="testimonial-text">"J'adore le Pack Paille &amp; Soleil — j'ai reçu mon sac et mon chapeau parfaitement assortis ! Le paiement à la livraison m'a convaincue de commander sans hésitation."</p>
+      <p class="testimonial-text">"J'ai pris le Pack 2 — style Étoiles de mer et style Pièces. Les deux sont sublimes ! Le paiement à la livraison m'a convaincue de commander sans hésitation."</p>
       <div class="testimonial-author">
         <div class="author-avatar" aria-hidden="true">F</div>
         <div>
@@ -1179,7 +1230,7 @@
       <div class="testimonial-stars" aria-label="5 étoiles sur 5">
         <span class="star" aria-hidden="true">★</span><span class="star" aria-hidden="true">★</span><span class="star" aria-hidden="true">★</span><span class="star" aria-hidden="true">★</span><span class="star" aria-hidden="true">★</span>
       </div>
-      <p class="testimonial-text">"La qualité artisanale est incroyable. Le tressage est soigné et le chapeau tient très bien. J'ai choisi le marron foncé — parfait pour toutes les occasions !"</p>
+      <p class="testimonial-text">"La chaîne est vraiment dorée et élégante. J'ai choisi le style Pièces — parfait pour toutes les occasions, plage ou soirée !"</p>
       <div class="testimonial-author">
         <div class="author-avatar" aria-hidden="true">N</div>
         <div>
@@ -1194,15 +1245,15 @@
 <!-- Footer -->
 <footer>
   <div class="footer-logo">
-    Paille &amp; Soleil
+    Waist Chain
     <span aria-label="Maroc">🇲🇦</span>
   </div>
   <p class="footer-text">
-    Artisanat marocain authentique — sacs et chapeaux en paille fabriqués à la main.<br>
+    Bijoux marocains — chaînes de taille dorées, 3 styles exclusifs.<br>
     Livraison gratuite partout au Maroc. Paiement à la livraison.
   </p>
   <hr class="footer-divider">
-  <p class="footer-copy">&copy; 2026 Paille &amp; Soleil — Tous droits réservés</p>
+  <p class="footer-copy">&copy; 2026 Waist Chain — Tous droits réservés</p>
 </footer>
 
 <!-- Floating CTA -->
@@ -1218,7 +1269,7 @@
   <div class="sp-avatar" id="sp-avatar" aria-hidden="true">F</div>
   <div class="sp-text">
     <div class="sp-name" id="sp-name">Fatima de Casablanca</div>
-    <div class="sp-detail" id="sp-detail">vient de commander le Pack Paille &amp; Soleil 🌿</div>
+    <div class="sp-detail" id="sp-detail">vient de commander la Chaîne Fleurs ✨</div>
     <div class="sp-time" id="sp-time">il y a 3 min</div>
   </div>
   <button class="sp-close" onclick="dismissPopup()" aria-label="Fermer">×</button>
@@ -1253,23 +1304,29 @@
   })();
 
 
-  // ─── COLOR PICKER SWITCHER ───
+  // ─── STYLE PICKER SWITCHER ───
   function updateColorPickers() {
     var c1Label  = document.getElementById('color1-label');
     var c2Group  = document.getElementById('color2-group');
     var c2Label  = document.getElementById('color2-label');
     var qty      = parseInt(document.getElementById('qty').value, 10) || 1;
-    var show2    = qty >= 2;
+    var packDuo  = document.getElementById('pack-duo') && document.getElementById('pack-duo').checked;
+    var show2    = qty >= 2 || packDuo;
 
     c1Label.innerHTML = show2
-      ? 'Couleur de l\'ensemble 1 <span style="color:var(--gold-dark)">*</span>'
-      : 'Couleur de votre ensemble (sac + chapeau) <span style="color:var(--gold-dark)">*</span>';
-    if (show2) c2Label.innerHTML = 'Couleur de l\'ensemble 2 <span style="color:var(--gold-dark)">*</span>';
+      ? 'Style de la 1ère chaîne <span style="color:var(--gold-dark)">*</span>'
+      : 'Style de votre chaîne <span style="color:var(--gold-dark)">*</span>';
+    if (show2) c2Label.innerHTML = 'Style de la 2ème chaîne <span style="color:var(--gold-dark)">*</span>';
 
     c2Group.style.display = show2 ? 'block' : 'none';
     document.getElementById('qty-group').style.display = '';
   }
   updateColorPickers(); // init on load
+
+  // Show/hide style 2 selector when pack selection changes
+  document.querySelectorAll('input[name="pack"]').forEach(function(r) {
+    r.addEventListener('change', updateColorPickers);
+  });
 
   // ─── PACK CARD SELECTION ───
   function selectPackVariant(colorValue) {
@@ -1405,7 +1462,7 @@
       telephone,
       ville,
       adresse,
-      product: 'Paille & Soleil - Sac et Chapeau',
+      product: 'Waist Chain - Chaîne de Taille',
       pack: packLabel,
       quantite,
       total,
@@ -1425,12 +1482,12 @@
     const TG_CHAT   = '8600859419';
 
     const couleurLine = couleur2
-      ? '🎨 Couleur 1: ' + couleur + '\n🎨 Couleur 2: ' + couleur2
-      : '🎨 Couleur: '   + couleur;
+      ? '💎 Style 1: ' + couleur + '\n💎 Style 2: ' + couleur2
+      : '💎 Style: '   + couleur;
     const tgMsg = [
-      '🌿 Nouvelle commande Paille & Soleil!',
+      '✨ Nouvelle commande Waist Chain!',
       '',
-      '📦 Pack: '    + packLabel,
+      '📦 Offre: '   + packLabel,
       '🔢 Qté: '     + quantite,
       couleurLine,
       '👤 Nom: '     + nom,
@@ -1463,7 +1520,7 @@
     document.getElementById('s-pack').textContent = packLabel;
     document.getElementById('s-color').textContent = couleur2 ? couleur + ' / ' + couleur2 : couleur;
     document.getElementById('s-total').textContent = total + ' DH';
-    document.getElementById('success-share-btn').href = 'https://wa.me/?text=' + encodeURIComponent("🌿 J'ai trouvé des sacs et chapeaux en paille artisanaux du Maroc!\nPack Paille & Soleil à seulement 249 DH 🎉\nLivraison gratuite + Paiement à la livraison 🚚\n👉 https://strawbag.pages.dev");
+    document.getElementById('success-share-btn').href = 'https://wa.me/?text=' + encodeURIComponent("✨ J'ai trouvé des chaînes de taille dorées au Maroc!\n1 pièce à seulement 169 DH 🎉\nLivraison gratuite + Paiement à la livraison 🚚\n👉 https://waistchain.pages.dev");
 
     document.getElementById('form-container').style.display = 'none';
     const successEl = document.getElementById('success-msg');
@@ -1479,9 +1536,9 @@
     document.getElementById('address').value = '';
     document.getElementById('qty').value = 1;
     document.getElementById('qty-group').style.display = '';
-    document.getElementById('pack-duo').checked = true;
-    document.getElementById('color-beige').checked = true;
-    document.getElementById('color2-beige').checked = true;
+    document.getElementById('pack-solo').checked = true;
+    document.getElementById('color-fleurs').checked = true;
+    document.getElementById('color2-fleurs').checked = true;
     document.getElementById('color2-group').style.display = 'none';
     document.querySelectorAll('.pack-card').forEach(function(c) { c.classList.remove('selected'); });
     resetCityToDropdown();
@@ -1501,7 +1558,7 @@
   // ─── PROMO COUNTDOWN ───
   (function() {
     var DURATION_MS = 48 * 60 * 60 * 1000; // 48 hours
-    var KEY = 'sb_promo_end';
+    var KEY = 'wc_promo_end';
 
     function getOrCreateEnd() {
       var v = parseInt(localStorage.getItem(KEY), 10);
@@ -1531,21 +1588,21 @@
 
   // ─── SOCIAL PROOF POPUP ───
   const spData = [
-    { name:'Fatima',   city:'Casablanca',   pack:'Pack Paille & Soleil – Sable & Noir',   mins:2  },
-    { name:'Khadija',  city:'Rabat',        pack:'Pack Paille & Soleil – Sable & Blanc',  mins:5  },
-    { name:'Nadia',    city:'Marrakech',    pack:'Pack Paille & Soleil – Sable & Noir',     mins:8  },
-    { name:'Zineb',    city:'Agadir',       pack:'Pack Paille & Soleil – Sable & Noir',   mins:1  },
-    { name:'Layla',    city:'Fès',          pack:'Pack Paille & Soleil – Sable & Blanc',  mins:12 },
-    { name:'Meryem',   city:'Tanger',       pack:'Pack Paille & Soleil – Sable & Blanc',    mins:3  },
-    { name:'Imane',    city:'Meknès',       pack:'Pack Paille & Soleil – Sable & Noir',   mins:7  },
-    { name:'Sara',     city:'Oujda',        pack:'Pack Paille & Soleil – Sable & Blanc',  mins:15 },
-    { name:'Houda',    city:'Kénitra',      pack:'Pack Paille & Soleil – Sable & Noir',     mins:4  },
-    { name:'Asmaa',    city:'Tétouan',      pack:'Pack Paille & Soleil – Sable & Noir',   mins:9  },
-    { name:'Loubna',   city:'El Jadida',    pack:'Pack Paille & Soleil – Sable & Blanc',  mins:6  },
-    { name:'Hajar',    city:'Béni Mellal',  pack:'Pack Paille & Soleil – Sable & Blanc',    mins:11 },
-    { name:'Soukaina', city:'Chefchaouen',  pack:'Pack Paille & Soleil – Sable & Noir',   mins:2  },
-    { name:'Widad',    city:'Essaouira',    pack:'Pack Paille & Soleil – Sable & Blanc',  mins:18 },
-    { name:'Hanane',   city:'Ouarzazate',   pack:'Pack Paille & Soleil – Sable & Noir',     mins:14 },
+    { name:'Fatima',   city:'Casablanca',   pack:'Chaîne Fleurs',                          mins:2  },
+    { name:'Khadija',  city:'Rabat',        pack:'Pack 2 – Étoiles de mer + Fleurs',        mins:5  },
+    { name:'Nadia',    city:'Marrakech',    pack:'Chaîne Pièces',                          mins:8  },
+    { name:'Zineb',    city:'Agadir',       pack:'Chaîne Étoiles de mer',                  mins:1  },
+    { name:'Layla',    city:'Fès',          pack:'Pack 2 – Fleurs + Pièces',               mins:12 },
+    { name:'Meryem',   city:'Tanger',       pack:'Chaîne Fleurs',                          mins:3  },
+    { name:'Imane',    city:'Meknès',       pack:'Chaîne Pièces',                          mins:7  },
+    { name:'Sara',     city:'Oujda',        pack:'Pack 2 – Pièces + Fleurs',               mins:15 },
+    { name:'Houda',    city:'Kénitra',      pack:'Chaîne Étoiles de mer',                  mins:4  },
+    { name:'Asmaa',    city:'Tétouan',      pack:'Pack 2 – Étoiles de mer + Pièces',        mins:9  },
+    { name:'Loubna',   city:'El Jadida',    pack:'Chaîne Fleurs',                          mins:6  },
+    { name:'Hajar',    city:'Béni Mellal',  pack:'Pack 2 – Fleurs + Étoiles de mer',        mins:11 },
+    { name:'Soukaina', city:'Chefchaouen',  pack:'Chaîne Pièces',                          mins:2  },
+    { name:'Widad',    city:'Essaouira',    pack:'Chaîne Étoiles de mer',                  mins:18 },
+    { name:'Hanane',   city:'Ouarzazate',   pack:'Pack 2 – Pièces + Fleurs',               mins:14 },
   ];
   let spIndex = 0;
   let spDismissed = false;
@@ -1556,7 +1613,7 @@
     spIndex++;
     document.getElementById('sp-avatar').textContent = d.name[0];
     document.getElementById('sp-name').textContent   = d.name + ' de ' + d.city;
-    document.getElementById('sp-detail').textContent = 'vient de commander le ' + d.pack + ' 🌿';
+    document.getElementById('sp-detail').textContent = 'vient de commander la ' + d.pack + ' ✨';
     document.getElementById('sp-time').textContent   = 'il y a ' + d.mins + ' min';
     const popup = document.getElementById('sp-popup');
     popup.classList.add('show');
@@ -1598,7 +1655,7 @@
     !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
     fbq('init','981839400957716');
     fbq('track','PageView');
-    fbq('track','ViewContent',{ content_name:'Paille & Soleil - Sac et Chapeau', content_type:'product', currency:'MAD' });
+    fbq('track','ViewContent',{ content_name:'Waist Chain - Chaîne de Taille', content_type:'product', currency:'MAD' });
     !function(w,d,t){w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var r="https://analytics.tiktok.com/i18n/pixel/events.js",o=n&&n.partner;ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=r,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=d.createElement("script");n.type="text/javascript";n.async=!0;n.src=r+"?sdkid="+e+"&lib="+t;e=d.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};ttq.load('D7PS3TJC77U471PH3140');ttq.page();}(window,document,'ttq');
   }, {once: true});
 </script>
