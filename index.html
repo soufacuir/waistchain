@@ -1,0 +1,1606 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name="description" content="Paille & Soleil – Sacs et chapeaux en paille artisanaux du Maroc. Pack Paille &amp; Soleil 249 DH — 3 coloris au choix. Livraison gratuite, paiement à la livraison.">
+  <meta name="keywords" content="sac paille maroc, chapeau paille, artisanat marocain, sac été, accessoires plage">
+  <meta property="og:title" content="Paille & Soleil – Sacs & Chapeaux Artisanaux 🇲🇦">
+  <meta property="og:description" content="Découvrez nos sacs et chapeaux en paille artisanaux. Livraison gratuite partout au Maroc. Paiement à la livraison.">
+  <meta property="og:image" content="https://strawbag.pages.dev/assets/photo-1.webp">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:url" content="https://strawbag.pages.dev/">
+  <meta name="facebook-domain-verification" content="7grsksueei6imy3y9fcnaf571l6c7f" />
+  <link rel="canonical" href="https://strawbag.pages.dev/">
+  <title>Paille & Soleil 🇲🇦 – Sacs & Chapeaux en Paille | Artisanat Marocain</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="dns-prefetch" href="https://connect.facebook.net">
+  <link rel="dns-prefetch" href="https://analytics.tiktok.com">
+  <link rel="preload" as="image" href="./images/hero-2.webp" fetchpriority="high">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"></noscript>
+
+  <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=981839400957716&ev=PageView&noscript=1"/></noscript>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --gold: #C9A96E;
+      --gold-dark: #8B6914;
+      --gold-light: #E8D5B0;
+      --gold-pale: #FDF6EC;
+      --brown: #3D2B1F;
+      --brown-mid: #6B4C35;
+      --cream: #FFF8F0;
+      --sand: #F5E6D0;
+      --white: #FFFFFF;
+      --shadow: 0 4px 24px rgba(61,43,31,0.12);
+      --shadow-lg: 0 12px 48px rgba(61,43,31,0.18);
+      --radius: 16px;
+      --radius-sm: 8px;
+      --transition: 0.3s cubic-bezier(0.4,0,0.2,1);
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--cream);
+      color: var(--brown);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    img { display: block; max-width: 100%; height: auto; }
+
+    /* ─── PROMO BAR (cycling badges) ─── */
+    .promo-bar {
+      background: var(--brown);
+      height: 46px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 16px;
+    }
+    .promo-bar-msg { font-size: 13px; font-weight: 600; color: var(--white); display: flex; align-items: center; gap: 8px; white-space: nowrap; }
+    .promo-bar-sep { color: var(--gold); font-weight: 400; }
+    .promo-bar-cta { color: var(--gold); font-weight: 700; text-decoration: underline; text-underline-offset: 2px; transition: color 0.2s; }
+    .promo-bar-cta:hover { color: var(--gold-light); }
+    .promo-countdown { color: var(--gold); font-weight: 700; font-variant-numeric: tabular-nums; letter-spacing: 0.5px; }
+
+    /* ─── HEADER ─── */
+    header {
+      background: rgba(255,248,240,0.95);
+      border-bottom: 1px solid var(--gold-light);
+      padding: 16px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(12px);
+    }
+    .logo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2px;
+      text-decoration: none;
+    }
+    .logo-main {
+      font-family: 'Playfair Display', serif;
+      font-size: 26px;
+      font-weight: 700;
+      color: var(--brown);
+      letter-spacing: 1px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .logo-main .logo-amp { color: var(--gold); }
+    .logo-flag { font-size: 22px; line-height: 1; }
+    .logo-sub {
+      font-size: 10px;
+      font-weight: 500;
+      color: var(--brown-mid);
+      letter-spacing: 3px;
+      text-transform: uppercase;
+    }
+
+    /* ─── HERO ─── */
+    .hero {
+      position: relative;
+      min-height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      background: var(--brown);
+    }
+    /* Mobile default: slideshow on, video off */
+    .hero-video { display: none; }
+    .hero-slide {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      transition: opacity 1.2s ease;
+      z-index: 0;
+    }
+    .hero-slide.is-active { opacity: 1; }
+    .hero-slide img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    /* Desktop: video on, slideshow off */
+    @media (min-width: 769px) {
+      .hero-video {
+        display: block;
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0.75;
+        z-index: 0;
+      }
+      .hero-slide { display: none; }
+    }
+    .hero-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(160deg,rgba(61,43,31,0.42) 0%,rgba(139,105,20,0.22) 50%,rgba(61,43,31,0.48) 100%);
+    }
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      text-align: center;
+      padding: 40px 24px;
+      max-width: 700px;
+    }
+    @media (max-width: 768px) {
+      .hero-content { position: absolute; bottom: 18%; left: 0; right: 0; margin: 0; padding: 16px 28px 20px; }
+
+      .hero h1 { font-size: clamp(26px, 7vw, 32px); margin-bottom: 10px; }
+      .hero-desc { font-size: 13px; line-height: 1.55; margin-bottom: 18px; }
+      .hero-cta { font-size: 14px; padding: 12px 26px; background: rgba(255,255,255,0.15) !important; color: var(--white) !important; border: 2px solid rgba(255,255,255,0.6); box-shadow: none !important; }
+    }
+    @media (min-width: 769px)  { .hero-content { margin-top: -200px; } }
+    .pack-popular {
+      position: absolute;
+      top: -11px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--gold);
+      color: var(--brown);
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      padding: 3px 10px;
+      border-radius: 100px;
+      white-space: nowrap;
+    }
+    .pack-discount { background: #3B82A0; color: #fff; }
+    .hero h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(36px, 9vw, 68px);
+      font-weight: 700;
+      color: var(--white);
+      line-height: 1.15;
+      margin-bottom: 20px;
+    }
+    .hero h1 em { font-style: italic; color: var(--gold); }
+    .hero-desc {
+      font-size: 16px;
+      color: rgba(255,255,255,0.85);
+      max-width: 480px;
+      margin: 0 auto 36px;
+      font-weight: 300;
+      line-height: 1.7;
+    }
+    .hero-cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: var(--gold);
+      color: var(--brown);
+      font-size: 15px;
+      font-weight: 700;
+      padding: 16px 36px;
+      border-radius: 100px;
+      text-decoration: none;
+      letter-spacing: 0.5px;
+      box-shadow: 0 8px 32px rgba(201,169,110,0.4);
+      transition: var(--transition);
+    }
+    .hero-cta:hover { background: var(--white); transform: translateY(-2px); box-shadow: 0 12px 40px rgba(201,169,110,0.5); }
+    .hero-cta svg { flex-shrink: 0; }
+    .hero-scroll {
+      position: absolute;
+      bottom: 32px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      color: rgba(255,255,255,0.6);
+      font-size: 11px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      animation: bounce 2s infinite;
+    }
+    @keyframes bounce {
+      0%,100% { transform: translateX(-50%) translateY(0); }
+      50%      { transform: translateX(-50%) translateY(8px); }
+    }
+
+    /* ─── SECTIONS ─── */
+    section { padding: 64px 20px; }
+    .section-label {
+      font-size: 11px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase;
+      color: var(--gold-dark); margin-bottom: 12px; text-align: center;
+    }
+    .section-title {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(28px, 6vw, 44px); font-weight: 700;
+      color: var(--brown); text-align: center; line-height: 1.2; margin-bottom: 16px;
+    }
+    .section-title span { color: var(--gold); }
+    .section-desc {
+      text-align: center; color: var(--brown-mid); font-size: 15px;
+      max-width: 520px; margin: 0 auto 48px; line-height: 1.7;
+    }
+
+    /* ─── PACKS ─── */
+    .packs { background: var(--gold-pale); }
+    .packs-grid {
+      display: grid; grid-template-columns: 1fr; gap: 24px;
+      max-width: 1000px; margin: 0 auto;
+    }
+    @media (min-width: 640px) { .packs-grid { grid-template-columns: repeat(3, 1fr); } }
+    .pack-card {
+      background: var(--white); border-radius: var(--radius); overflow: hidden;
+      box-shadow: var(--shadow); transition: var(--transition); position: relative;
+      border: 2px solid transparent; z-index: 201;
+    }
+    .pack-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lg); border-color: var(--gold); }
+    .pack-badge {
+      position: absolute; top: 12px; left: 12px; z-index: 10;
+      background: #C9A84C; color: #fff;
+      font-size: 10px; font-weight: 800; letter-spacing: 1.5px; text-transform: uppercase;
+      padding: 4px 12px; border-radius: 100px;
+    }
+    .pack-slideshow { position: relative; width: 100%; aspect-ratio: 1 / 1; overflow: hidden; background: #fff; }
+    .pack-slide { position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0; transition: opacity 0.8s ease; }
+    .pack-slide.is-active { opacity: 1; }
+    .pack-slide img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .pack-slide--product { background: #ffffff; }
+    .pack-slide--product img { object-fit: contain; }
+    .pack-card.selected { border-color: var(--gold) !important; box-shadow: 0 0 0 4px rgba(201,169,110,0.25), var(--shadow-lg); }
+    .pack-body { padding: 20px 24px 24px; }
+    .pack-name { font-family: 'Playfair Display', serif; font-size: 20px; font-weight: 700; color: var(--brown); margin-bottom: 2px; }
+    .pack-variant { font-size: 12px; font-weight: 700; color: var(--gold-dark); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 14px; }
+    .pack-desc { font-size: 13px; color: var(--brown-mid); margin-bottom: 20px; line-height: 1.6; }
+    .pack-includes {
+      list-style: none; margin-bottom: 24px;
+      display: flex; flex-direction: column; gap: 8px;
+    }
+    .pack-includes li { display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--brown); }
+    .pack-includes li::before { content: ''; width: 6px; height: 6px; background: var(--gold); border-radius: 50%; flex-shrink: 0; }
+    .pack-price { display: flex; align-items: baseline; gap: 4px; margin-bottom: 20px; }
+    .pack-price-amount { font-family: 'Playfair Display', serif; font-size: 36px; font-weight: 700; color: var(--gold-dark); }
+    .pack-price-currency { font-size: 14px; font-weight: 600; color: var(--brown-mid); }
+    .pack-cta {
+      display: block; width: 100%; background: var(--brown); color: var(--white);
+      font-size: 14px; font-weight: 700; padding: 14px; border-radius: var(--radius-sm);
+      text-align: center; text-decoration: none; letter-spacing: 0.5px;
+      transition: var(--transition); border: none; cursor: pointer;
+    }
+    .pack-cta:hover { background: var(--gold-dark); }
+
+    /* ─── ORDER FORM ─── */
+    .order-section { background: var(--brown); padding: 56px 20px; }
+    .order-section .section-title { color: var(--white); }
+    .order-section .section-label { color: var(--gold); }
+    .order-section .section-desc { color: rgba(255,255,255,0.7); }
+    .order-wrapper { max-width: 680px; margin: 0 auto; }
+    /* ─── TRUST STRIP (below hero) ─── */
+    .trust-strip { background: var(--sand); padding: 14px 20px; display: flex; justify-content: center; align-items: center; overflow: hidden; }
+    .trust-track { display: flex; gap: 10px; justify-content: center; align-items: center; }
+    .trust-pill { display: flex; align-items: center; gap: 8px; background: rgba(61,43,31,0.06); border-radius: 100px; padding: 8px 16px; flex-shrink: 0; }
+    .trust-pill-icon { width: 28px; height: 28px; background: var(--brown); border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+    .trust-pill-icon svg { width: 14px; height: 14px; color: var(--gold); }
+    .trust-pill-text { font-size: 13px; font-weight: 600; color: var(--brown); white-space: nowrap; }
+    @keyframes trust-scroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+    @media (max-width: 768px) {
+      .trust-strip { padding: 10px 0; }
+      .trust-track { width: max-content; animation: trust-scroll 10s linear infinite; }
+    }
+    @media (min-width: 769px) {
+      .trust-pill[aria-hidden="true"] { display: none; }
+    }
+    @media (prefers-reduced-motion: reduce) { .trust-track { animation: none; } }
+    .order-form {
+      background: var(--white); border-radius: var(--radius);
+      padding: 24px 20px; box-shadow: var(--shadow-lg);
+    }
+    @media (max-width: 480px) { .order-form { padding: 18px 14px; } }
+    .form-title { font-family: 'Playfair Display', serif; font-size: 22px; font-weight: 700; color: var(--brown); margin-bottom: 8px; }
+    .form-subtitle { font-size: 13px; color: var(--brown-mid); margin-bottom: 16px; }
+    .form-group { margin-bottom: 14px; }
+    .form-group label { display: block; font-size: 13px; font-weight: 600; color: var(--brown); margin-bottom: 6px; }
+    .form-group label span { color: var(--gold-dark); }
+    .form-control {
+      width: 100%; padding: 11px 14px;
+      border: 1.5px solid var(--gold-light); border-radius: var(--radius-sm);
+      font-size: 15px; font-family: 'Inter', sans-serif; color: var(--brown);
+      background: var(--white); transition: border-color 0.2s ease, box-shadow 0.2s ease;
+      outline: none; -webkit-appearance: none;
+    }
+    .form-control:focus { border-color: var(--gold); box-shadow: 0 0 0 3px rgba(201,169,110,0.15); }
+    .form-control::placeholder { color: #B0A090; }
+    select.form-control { cursor: pointer; }
+
+    /* Pack selector */
+    .pack-selector { display: flex; gap: 12px; margin-bottom: 20px; }
+    .pack-option { position: relative; flex: 1; }
+    .pack-option input[type="radio"] { position: absolute; opacity: 0; width: 0; height: 0; }
+    .pack-option-label {
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      gap: 2px; padding: 10px 12px; border: 2px solid var(--gold-light);
+      border-radius: var(--radius-sm); cursor: pointer; transition: var(--transition); text-align: center;
+    }
+    .pack-option input:checked + .pack-option-label { border-color: var(--gold); background: var(--gold-pale); }
+    .pack-option-name { font-size: 13px; font-weight: 700; color: var(--brown); }
+    .pack-option-price { font-family: 'Playfair Display', serif; font-size: 16px; font-weight: 700; color: var(--gold-dark); }
+    .pack-option-dh { font-size: 10px; color: var(--brown-mid); }
+
+    /* Color selector */
+    .color-selector { display: flex; gap: 12px; margin-bottom: 20px; }
+    .color-option { position: relative; flex: 1; }
+    .color-option input[type="radio"] { position: absolute; opacity: 0; width: 0; height: 0; }
+    .color-option-label {
+      display: flex; align-items: center; gap: 8px; padding: 10px 12px;
+      border: 2px solid var(--gold-light); border-radius: var(--radius-sm);
+      cursor: pointer; transition: var(--transition);
+    }
+    .color-option input:checked + .color-option-label { border-color: var(--gold); background: var(--gold-pale); }
+    .color-dot { width: 22px; height: 22px; border-radius: 50%; flex-shrink: 0; border: 2px solid rgba(255,255,255,0.8); box-shadow: 0 2px 6px rgba(0,0,0,0.2); overflow: hidden; }
+    .color-dot.sable-beige { background: linear-gradient(to right, #C4A67E 50%, #E8D5B0 50%); }
+    .color-dot.sable-noir { background: linear-gradient(to right, #D4B896 50%, #1a1a1a 50%); }
+    .color-option-text { font-size: 11px; font-weight: 600; color: var(--brown); }
+
+    /* City switcher */
+    .city-back-btn {
+      display: inline-flex; align-items: center; gap: 6px;
+      font-size: 12px; font-weight: 600; color: var(--gold-dark);
+      background: none; border: none; cursor: pointer; padding: 0; margin-bottom: 6px;
+      text-decoration: underline; text-underline-offset: 3px;
+    }
+    #city-text-wrapper { display: none; }
+
+    .form-group-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    @media (max-width: 480px) { .form-group-row { grid-template-columns: 1fr; } }
+
+    /* Qty */
+    .qty-wrapper { display: flex; align-items: center; border: 1.5px solid var(--gold-light); border-radius: var(--radius-sm); overflow: hidden; }
+    .qty-btn { width: 40px; height: 42px; background: var(--sand); border: none; cursor: pointer; font-size: 20px; color: var(--brown); font-weight: 700; transition: background 0.2s; flex-shrink: 0; }
+    .qty-btn:hover { background: var(--gold-light); }
+    .qty-input { flex: 1; border: none; text-align: center; font-size: 16px; font-weight: 700; font-family: 'Inter', sans-serif; color: var(--brown); padding: 0; min-width: 0; background: var(--white); outline: none; }
+    .qty-input::-webkit-outer-spin-button, .qty-input::-webkit-inner-spin-button { -webkit-appearance: none; }
+    .qty-input[type=number] { -moz-appearance: textfield; }
+
+    /* Submit */
+    .submit-btn {
+      width: 100%; background: var(--gold); color: var(--brown);
+      font-size: 16px; font-weight: 800; padding: 14px; border-radius: var(--radius-sm);
+      border: none; cursor: pointer; letter-spacing: 0.5px; transition: var(--transition);
+      font-family: 'Inter', sans-serif; display: flex; align-items: center; justify-content: center;
+      gap: 10px; margin-top: 8px;
+    }
+    .submit-btn:hover:not(:disabled) { background: var(--gold-dark); color: var(--white); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(139,105,20,0.3); }
+    .submit-btn:disabled { opacity: 0.7; cursor: not-allowed; }
+    .submit-btn svg { width: 20px; height: 20px; }
+    .form-note {
+      text-align: center; font-size: 12px; color: var(--brown-mid); margin-top: 10px;
+      display: flex; align-items: center; justify-content: center; gap: 6px;
+    }
+    .form-note svg { width: 14px; height: 14px; color: var(--gold-dark); }
+
+    /* ─── SUCCESS SCREEN ─── */
+    .success-screen { display: none; text-align: center; padding: 36px 24px 28px; }
+    .success-screen.visible {
+      display: block;
+      border-radius: calc(var(--radius) - 2px);
+      background: linear-gradient(135deg, #F5E6D3 0%, #E8D5B7 33%, #F0DFC0 66%, #F5E6D3 100%);
+      background-size: 300% 300%;
+      animation: successFadeUp 0.45s ease both, sandShift 4.5s ease-in-out 0.6s infinite;
+    }
+    @keyframes successFadeUp { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes sandShift {
+      0%, 100% { background-position: 0% 50%; }
+      50%       { background-position: 100% 50%; }
+    }
+
+    .success-check-wrap { width: 76px; height: 76px; margin: 0 auto 16px; }
+    .success-screen.visible .success-check-wrap { animation: checkGlow 3.5s ease-in-out 1.4s infinite; }
+    @keyframes checkGlow {
+      0%, 100% { filter: drop-shadow(0 0 3px rgba(201,169,110,0.2)); }
+      50%       { filter: drop-shadow(0 0 10px rgba(201,169,110,0.58)); }
+    }
+    .success-checkmark { width: 76px; height: 76px; }
+    .success-check-circle {
+      stroke: var(--gold); stroke-width: 2;
+      stroke-dasharray: 157; stroke-dashoffset: 157;
+      animation: strokeDraw 0.65s cubic-bezier(0.65,0,0.45,1) 0.2s both;
+    }
+    .success-check-path {
+      stroke: var(--gold-dark); stroke-width: 3; stroke-linecap: round; stroke-linejoin: round;
+      stroke-dasharray: 50; stroke-dashoffset: 50;
+      animation: strokeDraw 0.35s cubic-bezier(0.65,0,0.45,1) 0.9s both;
+    }
+    @keyframes strokeDraw { to { stroke-dashoffset: 0; } }
+
+    .success-flag { font-size: 28px; display: block; margin-bottom: 8px; }
+    .success-title { font-family: 'Playfair Display', serif; font-size: 26px; font-weight: 700; color: var(--brown); margin-bottom: 20px; }
+    .success-screen.visible .success-title { animation: titleWarm 4s ease-in-out 0.6s infinite; }
+    @keyframes titleWarm {
+      0%, 100% { color: var(--brown); }
+      50%       { color: var(--gold-dark); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .success-screen.visible { animation: none; background: #F5E6D3; }
+      .success-screen.visible .success-check-wrap { animation: none; }
+      .success-screen.visible .success-title { animation: none; }
+      .success-check-circle { stroke-dashoffset: 0; }
+      .success-check-path { stroke-dashoffset: 0; }
+    }
+
+    .success-summary {
+      background: var(--gold-pale); border: 1px solid var(--gold-light);
+      border-radius: var(--radius); padding: 4px 20px; margin-bottom: 20px; text-align: left;
+    }
+    .success-row {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 12px 0; border-bottom: 1px solid var(--gold-light); font-size: 14px;
+    }
+    .success-row:last-child { border-bottom: none; }
+    .success-row-label { color: var(--brown-mid); font-weight: 500; }
+    .success-row-value { color: var(--brown); font-weight: 700; text-align: right; max-width: 62%; }
+    .success-row-total .success-row-value { font-family: 'Playfair Display', serif; font-size: 20px; color: var(--gold-dark); }
+
+    .success-message { font-size: 14px; color: var(--brown-mid); line-height: 1.7; margin-bottom: 28px; }
+    .success-message strong { color: var(--brown); }
+
+    .success-actions { display: flex; flex-direction: column; gap: 12px; }
+    .success-btn-reset {
+      display: flex; align-items: center; justify-content: center; gap: 8px;
+      width: 100%; padding: 15px; border: 2px solid var(--brown); border-radius: var(--radius-sm);
+      background: var(--white); color: var(--brown); font-size: 15px; font-weight: 700;
+      font-family: 'Inter', sans-serif; cursor: pointer; transition: var(--transition);
+    }
+    .success-btn-reset:hover { background: var(--brown); color: var(--white); }
+    .success-btn-share {
+      display: flex; align-items: center; justify-content: center; gap: 8px;
+      width: 100%; padding: 15px; border-radius: var(--radius-sm);
+      background: #25D366; color: var(--white); font-size: 15px; font-weight: 700;
+      text-decoration: none; transition: var(--transition);
+    }
+    .success-btn-share:hover { background: #128C7E; transform: translateY(-2px); box-shadow: 0 6px 20px rgba(37,211,102,0.35); }
+    .success-btn-reset svg, .success-btn-share svg { width: 18px; height: 18px; flex-shrink: 0; }
+
+    /* ─── GALLERY ─── */
+    .gallery { background: var(--cream); }
+    .gallery-grid {
+      display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px;
+      max-width: 1100px; margin: 0 auto;
+    }
+    @media (min-width: 640px) { .gallery-grid { grid-template-columns: repeat(3, 1fr); gap: 16px; } }
+    @media (min-width: 900px) {
+      .gallery-grid { grid-template-columns: repeat(4, 1fr); }
+      .gallery-item:first-child { grid-column: span 2; grid-row: span 2; }
+    }
+    .gallery-item { position: relative; border-radius: var(--radius-sm); overflow: hidden; aspect-ratio: 1; cursor: pointer; }
+    .gallery-item img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; }
+    .gallery-item:hover img { transform: scale(1.08); }
+    .gallery-overlay {
+      position: absolute; inset: 0;
+      background: linear-gradient(to top, rgba(61,43,31,0.85) 0%, rgba(61,43,31,0.1) 50%, transparent 100%);
+      display: flex; align-items: flex-end; padding: 16px;
+      opacity: 0; transition: opacity 0.3s ease;
+    }
+    .gallery-item:hover .gallery-overlay { opacity: 1; }
+    .gallery-overlay-text { color: var(--white); }
+    .gallery-overlay-text strong { display: block; font-family: 'Playfair Display', serif; font-size: 15px; font-weight: 600; margin-bottom: 2px; }
+    .gallery-overlay-text span { font-size: 12px; color: var(--gold-light); }
+    @media (max-width: 639px) { .gallery-overlay { opacity: 1; } }
+
+    /* ─── COLORS ─── */
+    .colors { background: var(--sand); }
+    .colors-grid { display: flex; flex-wrap: nowrap; justify-content: center; gap: 40px; max-width: 380px; margin: 0 auto; }
+    .color-item { display: flex; flex-direction: column; align-items: center; gap: 10px; }
+    .color-swatch { width: 68px; height: 68px; border-radius: 50%; box-shadow: var(--shadow); border: 4px solid var(--white); overflow: hidden; }
+    .color-swatch.sable-beige { background: linear-gradient(to right, #C4A67E 50%, #E8D5B0 50%); }
+    .color-swatch.sable-noir { background: linear-gradient(to right, #D4B896 50%, #1a1a1a 50%); }
+    .color-name { font-family: 'Playfair Display', serif; font-size: 15px; font-weight: 600; color: var(--brown); }
+    .color-sub { font-size: 12px; color: var(--brown-mid); margin-top: -8px; }
+
+    /* ─── TESTIMONIALS ─── */
+    .testimonials { background: var(--cream); }
+    .testimonials-grid { display: grid; grid-template-columns: 1fr; gap: 20px; max-width: 900px; margin: 0 auto; }
+    @media (min-width: 640px) { .testimonials-grid { grid-template-columns: repeat(3, 1fr); } }
+    .testimonial-card { background: var(--white); border-radius: var(--radius); padding: 24px; box-shadow: var(--shadow); }
+    .testimonial-stars { display: flex; gap: 2px; margin-bottom: 12px; }
+    .star { color: var(--gold); font-size: 16px; }
+    .testimonial-text { font-size: 14px; color: var(--brown-mid); line-height: 1.65; margin-bottom: 16px; font-style: italic; }
+    .testimonial-author { display: flex; align-items: center; gap: 10px; }
+    .author-avatar { width: 40px; height: 40px; border-radius: 50%; background: var(--sand); display: flex; align-items: center; justify-content: center; font-family: 'Playfair Display', serif; font-weight: 700; font-size: 16px; color: var(--gold-dark); flex-shrink: 0; }
+    .author-name { font-size: 14px; font-weight: 600; color: var(--brown); }
+    .author-city { font-size: 12px; color: var(--brown-mid); }
+
+    /* ─── FOOTER ─── */
+    footer { background: var(--brown); color: rgba(255,255,255,0.7); text-align: center; padding: 40px 20px; }
+    .footer-logo { font-family: 'Playfair Display', serif; font-size: 24px; font-weight: 700; color: var(--gold); margin-bottom: 12px; display: flex; align-items: center; justify-content: center; gap: 8px; }
+    .footer-text { font-size: 13px; line-height: 1.7; max-width: 480px; margin: 0 auto 20px; }
+    .footer-divider { border-color: rgba(255,255,255,0.1); margin: 24px auto; max-width: 200px; }
+    .footer-copy { font-size: 12px; opacity: 0.5; }
+
+    /* ─── FLOATING CTA ─── */
+    .floating-cta { position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%); z-index: 200; opacity: 0; pointer-events: none; transition: opacity 0.3s ease; }
+    .floating-cta.visible { opacity: 1; pointer-events: all; }
+    .floating-cta a { display: flex; align-items: center; gap: 10px; background: var(--brown); color: var(--white); font-size: 15px; font-weight: 700; padding: 15px 28px; border-radius: 100px; text-decoration: none; box-shadow: 0 8px 32px rgba(61,43,31,0.4); transition: var(--transition); white-space: nowrap; }
+    .floating-cta a:hover { background: var(--gold-dark); transform: scale(1.03); }
+    .floating-cta-pulse { width: 10px; height: 10px; background: #22C55E; border-radius: 50%; animation: pulse 1.5s infinite; }
+    @keyframes pulse { 0%,100% { transform: scale(1); opacity: 1; } 50% { transform: scale(1.4); opacity: 0.7; } }
+
+    /* ─── SOCIAL PROOF POPUP ─── */
+    .sp-popup {
+      position: fixed;
+      bottom: 24px;
+      left: 24px;
+      z-index: 300;
+      background: var(--white);
+      border-radius: 10px;
+      padding: 10px 12px;
+      box-shadow: 0 8px 32px rgba(61,43,31,0.22);
+      border-left: 4px solid var(--gold);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      max-width: 240px;
+      transform: translateY(100px);
+      opacity: 0;
+      transition: transform 0.4s cubic-bezier(0.34,1.56,0.64,1), opacity 0.4s ease;
+      pointer-events: none;
+    }
+    .sp-popup.show { transform: translateY(0); opacity: 1; pointer-events: all; }
+    .sp-avatar {
+      width: 32px; height: 32px; border-radius: 50%;
+      background: var(--sand); display: flex; align-items: center; justify-content: center;
+      font-family: 'Playfair Display', serif; font-size: 14px; font-weight: 700;
+      color: var(--gold-dark); flex-shrink: 0;
+    }
+    .sp-text { flex: 1; min-width: 0; }
+    .sp-name { font-size: 11px; font-weight: 700; color: var(--brown); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .sp-detail { font-size: 11px; color: var(--brown-mid); line-height: 1.4; }
+    .sp-time { font-size: 10px; color: var(--gold-dark); font-weight: 600; margin-top: 2px; }
+    .sp-close { background: none; border: none; cursor: pointer; color: var(--brown-mid); font-size: 14px; line-height: 1; padding: 0; flex-shrink: 0; }
+    @media (max-width: 639px) {
+      .sp-popup { left: 12px; right: 12px; max-width: none; bottom: 80px; }
+    }
+
+    /* ─── ACCESSIBILITY ─── */
+    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border-width: 0; }
+    :focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
+
+    /* ─── LOADER ─── */
+    .spinner { width: 20px; height: 20px; border: 2px solid rgba(255,255,255,0.3); border-top-color: var(--brown); border-radius: 50%; animation: spin 0.6s linear infinite; display: none; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* ─── ERRORS ─── */
+    .field-error { font-size: 12px; color: #DC2626; margin-top: 4px; display: none; }
+    .form-control.error { border-color: #DC2626; }
+  </style>
+</head>
+<body>
+
+<!-- Promo Bar -->
+<div class="promo-bar" role="region" aria-label="Offre limitée — minuteur de compte à rebours">
+  <p class="promo-bar-msg">
+    ⚡ OFFRE LIMITÉE — Se termine dans :&nbsp;<span id="promo-countdown" class="promo-countdown" aria-live="off">--J --H --M --S</span>
+  </p>
+</div>
+
+<!-- Header -->
+<header>
+  <a href="#" class="logo" aria-label="Paille & Soleil - Accueil">
+    <span class="logo-main">
+      Paille <span class="logo-amp">&</span> Soleil
+      <span class="logo-flag" aria-label="Maroc">🇲🇦</span>
+    </span>
+    <span class="logo-sub">Artisanat Marocain</span>
+  </a>
+</header>
+
+<!-- Hero -->
+<section class="hero" aria-labelledby="hero-heading">
+  <video class="hero-video" autoplay muted loop playsinline preload="metadata" poster="./assets/photo-1.webp" aria-hidden="true">
+    <source src="./assets/product-video.mp4" type="video/mp4">
+  </video>
+  <div class="hero-slide is-active" aria-hidden="true">
+    <img src="./images/hero-2.webp" alt="" fetchpriority="high" width="900" height="1125">
+  </div>
+  <div class="hero-slide" aria-hidden="true">
+    <img src="./images/hero-3.webp" alt="" loading="lazy" width="900" height="1125">
+  </div>
+  <div class="hero-slide" aria-hidden="true">
+    <img src="./images/lifestyle-cafe.webp" alt="" loading="lazy" width="900" height="1125">
+  </div>
+  <div class="hero-slide" aria-hidden="true">
+    <img src="./images/lifestyle-plage-sunset.webp" alt="" loading="lazy" width="900" height="1125">
+  </div>
+  <div class="hero-overlay" aria-hidden="true"></div>
+  <div class="hero-content">
+    <h1 id="hero-heading">
+      L'art de la <em>paille</em><br>façonné à la main
+    </h1>
+    <p class="hero-desc">
+      Sacs et chapeaux artisanaux du Maroc — élégance naturelle pour chaque saison. Livraison gratuite, paiement à la livraison.
+    </p>
+    <a href="#commander" class="hero-cta" aria-label="Commander maintenant">
+      <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/></svg>
+      Commander maintenant
+    </a>
+  </div>
+  <div class="hero-scroll" aria-hidden="true">
+    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+    Défiler
+  </div>
+</section>
+
+<!-- Trust Strip -->
+<div class="trust-strip" role="region" aria-label="Nos garanties">
+  <div class="trust-track">
+    <div class="trust-pill">
+      <div class="trust-pill-icon" aria-hidden="true">
+        <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
+      </div>
+      <span class="trust-pill-text">Paiement à la livraison</span>
+    </div>
+    <div class="trust-pill">
+      <div class="trust-pill-icon" aria-hidden="true">
+        <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/></svg>
+      </div>
+      <span class="trust-pill-text">Livraison gratuite</span>
+    </div>
+    <div class="trust-pill">
+      <div class="trust-pill-icon" aria-hidden="true">
+        <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+      </div>
+      <span class="trust-pill-text">100% sécurisé</span>
+    </div>
+    <!-- Duplicate set for seamless loop (mobile marquee only) -->
+    <div class="trust-pill" aria-hidden="true">
+      <div class="trust-pill-icon" aria-hidden="true">
+        <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
+      </div>
+      <span class="trust-pill-text">Paiement à la livraison</span>
+    </div>
+    <div class="trust-pill" aria-hidden="true">
+      <div class="trust-pill-icon" aria-hidden="true">
+        <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/></svg>
+      </div>
+      <span class="trust-pill-text">Livraison gratuite</span>
+    </div>
+    <div class="trust-pill" aria-hidden="true">
+      <div class="trust-pill-icon" aria-hidden="true">
+        <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+      </div>
+      <span class="trust-pill-text">100% sécurisé</span>
+    </div>
+  </div>
+</div>
+
+<!-- Packs Section -->
+<section class="packs" id="packs" aria-labelledby="packs-heading">
+  <p class="section-label">COLLECTION ÉTÉ 2026</p>
+  <h2 class="section-title" id="packs-heading">Pack Paille &amp; <span>Soleil</span></h2>
+  <p class="section-desc">Sac + chapeau assortis, fabriqués à la main au Maroc — choisissez votre coloris préféré.</p>
+
+  <div class="packs-grid">
+
+    <!-- Sable & Blanc -->
+    <div class="pack-card" data-color="Sable &amp; Blanc">
+      <span class="pack-badge">⭐ Best-seller</span>
+      <div class="pack-slideshow" aria-hidden="true">
+        <div class="pack-slide pack-slide--product is-active">
+          <img src="./images/pack-beige-product.webp" alt="Pack Paille &amp; Soleil coloris Sable &amp; Blanc – produit" loading="lazy" width="400" height="400">
+        </div>
+        <div class="pack-slide">
+          <img src="./images/pack-beige-lifestyle.webp" alt="Pack Paille &amp; Soleil coloris Sable &amp; Blanc – lifestyle" loading="lazy" width="400" height="400">
+        </div>
+      </div>
+      <div class="pack-body">
+        <div class="pack-name">Pack Paille &amp; Soleil</div>
+        <div class="pack-variant">Sable &amp; Blanc</div>
+        <ul class="pack-includes" aria-label="Contenu du pack Sable &amp; Blanc">
+          <li>1 sac en paille artisanal</li>
+          <li>1 chapeau en paille assorti</li>
+          <li>Livraison gratuite</li>
+        </ul>
+        <div class="pack-price" aria-label="Prix : 249 dirhams">
+          <span class="pack-price-amount">249</span>
+          <span class="pack-price-currency">DH</span>
+        </div>
+        <button class="pack-cta" onclick="selectPackVariant('Sable &amp; Blanc')" aria-label="Choisir le coloris Sable &amp; Blanc à 249 DH">
+          Commander ce pack
+        </button>
+      </div>
+    </div>
+
+    <!-- Sable & Noir -->
+    <div class="pack-card" data-color="Sable &amp; Noir">
+      <span class="pack-badge">⭐ Best-seller</span>
+      <div class="pack-slideshow" aria-hidden="true">
+        <div class="pack-slide pack-slide--product is-active">
+          <img src="./images/pack-noir-product.webp" alt="Pack Paille &amp; Soleil coloris Sable &amp; Noir – produit" loading="lazy" width="400" height="400">
+        </div>
+        <div class="pack-slide">
+          <img src="./images/pack-noir-lifestyle.webp" alt="Pack Paille &amp; Soleil coloris Sable &amp; Noir – lifestyle" loading="lazy" width="400" height="400">
+        </div>
+      </div>
+      <div class="pack-body">
+        <div class="pack-name">Pack Paille &amp; Soleil</div>
+        <div class="pack-variant">Sable &amp; Noir</div>
+        <ul class="pack-includes" aria-label="Contenu du pack Sable &amp; Noir">
+          <li>1 sac en paille artisanal</li>
+          <li>1 chapeau en paille assorti</li>
+          <li>Livraison gratuite</li>
+        </ul>
+        <div class="pack-price" aria-label="Prix : 249 dirhams">
+          <span class="pack-price-amount">249</span>
+          <span class="pack-price-currency">DH</span>
+        </div>
+        <button class="pack-cta" onclick="selectPackVariant('Sable &amp; Noir')" aria-label="Choisir le coloris Sable &amp; Noir à 249 DH">
+          Commander ce pack
+        </button>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Order Form — placed high for mobile conversion -->
+<section class="order-section" id="commander" aria-labelledby="order-heading">
+  <p class="section-label">Commander</p>
+  <h2 class="section-title" id="order-heading">Passez votre <span>commande</span></h2>
+  <p class="section-desc">Remplissez le formulaire ci-dessous — notre équipe vous contactera pour confirmer.</p>
+
+  <div class="order-wrapper">
+
+
+    <div class="order-form" role="main">
+      <div id="form-container">
+        <div class="form-title">Formulaire de commande</div>
+        <p class="form-subtitle">Tous les champs marqués d'un <span style="color:var(--gold-dark)">*</span> sont obligatoires.</p>
+
+        <form id="order-form" novalidate>
+          <!-- Pack Selection (hidden — single pack, color chosen via cards above) -->
+          <div class="form-group" id="pack-section" style="display:none" aria-hidden="true">
+            <label>Choisissez votre pack <span>*</span></label>
+            <div class="pack-selector" role="radiogroup" aria-label="Sélection du pack">
+              <div class="pack-option">
+                <span class="pack-popular pack-discount">Discount: 2 à 329 DH</span>
+                <input type="radio" id="pack-solo" name="pack" value="Pack Solo – 199 DH" data-price="199">
+                <label class="pack-option-label" for="pack-solo">
+                  <span class="pack-option-name">Solo</span>
+                  <span class="pack-option-price">199</span>
+                  <span class="pack-option-dh">DH</span>
+                </label>
+              </div>
+              <div class="pack-option">
+                <span class="pack-popular">⭐ Populaire</span>
+                <input type="radio" id="pack-duo" name="pack" value="Pack Paille &amp; Soleil – 249 DH" data-price="249" checked>
+                <label class="pack-option-label" for="pack-duo">
+                  <span class="pack-option-name">P&amp;S</span>
+                  <span class="pack-option-price">249</span>
+                  <span class="pack-option-dh">DH</span>
+                </label>
+              </div>
+            </div>
+            <div class="field-error" id="pack-error">Veuillez choisir un pack.</div>
+          </div>
+
+          <!-- Color 1 -->
+          <div class="form-group" id="color1-group">
+            <label id="color1-label">Couleur de votre ensemble (sac + chapeau) <span style="color:var(--gold-dark)">*</span></label>
+            <div class="color-selector" role="radiogroup" aria-labelledby="color1-label">
+              <div class="color-option">
+                <input type="radio" id="color-beige" name="color" value="Sable & Blanc" checked>
+                <label class="color-option-label" for="color-beige">
+                  <div class="color-dot sable-beige" aria-hidden="true"></div>
+                  <span class="color-option-text">Sable & Blanc</span>
+                </label>
+              </div>
+              <div class="color-option">
+                <input type="radio" id="color-noir" name="color" value="Sable & Noir">
+                <label class="color-option-label" for="color-noir">
+                  <div class="color-dot sable-noir" aria-hidden="true"></div>
+                  <span class="color-option-text">Sable & Noir</span>
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <!-- Color 2 (shown when qty≥2) -->
+          <div class="form-group" id="color2-group" style="display:none">
+            <label id="color2-label">Couleur du 2ème ensemble <span style="color:var(--gold-dark)">*</span></label>
+            <div class="color-selector" role="radiogroup" aria-labelledby="color2-label">
+              <div class="color-option">
+                <input type="radio" id="color2-beige" name="color2" value="Sable & Blanc" checked>
+                <label class="color-option-label" for="color2-beige">
+                  <div class="color-dot sable-beige" aria-hidden="true"></div>
+                  <span class="color-option-text">Sable & Blanc</span>
+                </label>
+              </div>
+              <div class="color-option">
+                <input type="radio" id="color2-noir" name="color2" value="Sable & Noir">
+                <label class="color-option-label" for="color2-noir">
+                  <div class="color-dot sable-noir" aria-hidden="true"></div>
+                  <span class="color-option-text">Sable & Noir</span>
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quantity -->
+          <div class="form-group" id="qty-group">
+            <label for="qty">Quantité</label>
+            <div class="qty-wrapper">
+              <button type="button" class="qty-btn" aria-label="Diminuer la quantité" onclick="changeQty(-1)">−</button>
+              <input type="number" id="qty" name="qty" value="1" min="1" max="10" class="qty-input" aria-label="Quantité" readonly>
+              <button type="button" class="qty-btn" aria-label="Augmenter la quantité" onclick="changeQty(1)">+</button>
+            </div>
+          </div>
+
+          <!-- Name + Phone -->
+          <div class="form-group-row">
+            <div class="form-group">
+              <label for="name">Nom complet <span>*</span></label>
+              <input type="text" id="name" name="name" class="form-control" placeholder="Votre nom" autocomplete="name" required aria-required="true" aria-describedby="name-error">
+              <div class="field-error" id="name-error">Veuillez entrer votre nom.</div>
+            </div>
+            <div class="form-group">
+              <label for="phone">Téléphone <span>*</span></label>
+              <input type="tel" id="phone" name="phone" class="form-control" placeholder="06 XX XX XX XX" autocomplete="tel" required aria-required="true" aria-describedby="phone-error" pattern="[0-9+\s\-]{9,15}">
+              <div class="field-error" id="phone-error">Veuillez entrer votre numéro.</div>
+            </div>
+          </div>
+
+          <!-- City -->
+          <div class="form-group">
+            <label for="city">Ville <span>*</span></label>
+
+            <!-- Dropdown -->
+            <div id="city-select-wrapper">
+              <select id="city" name="city" class="form-control" required aria-required="true" aria-describedby="city-error" onchange="handleCityChange(this)">
+                <option value="">Sélectionnez votre ville...</option>
+                <option>Casablanca</option>
+                <option>Rabat</option>
+                <option>Marrakech</option>
+                <option>Fès</option>
+                <option>Tanger</option>
+                <option>Agadir</option>
+                <option>Meknès</option>
+                <option>Oujda</option>
+                <option>Kénitra</option>
+                <option>Tétouan</option>
+                <option>Safi</option>
+                <option>Mohammedia</option>
+                <option>Khouribga</option>
+                <option>Béni Mellal</option>
+                <option>El Jadida</option>
+                <option>Nador</option>
+                <option>Taza</option>
+                <option>Settat</option>
+                <option>Berrechid</option>
+                <option>Khémisset</option>
+                <option>Errachidia</option>
+                <option>Guelmim</option>
+                <option>Ouarzazate</option>
+                <option>Laâyoune</option>
+                <option>Dakhla</option>
+                <option>Taroudant</option>
+                <option>Tiznit</option>
+                <option>Essaouira</option>
+                <option>Ifrane</option>
+                <option>Al Hoceima</option>
+                <option>Larache</option>
+                <option>Azrou</option>
+                <option>Midelt</option>
+                <option>Tan-Tan</option>
+                <option>Sidi Kacem</option>
+                <option>Sidi Slimane</option>
+                <option>Berkane</option>
+                <option>Taourirt</option>
+                <option>Jerada</option>
+                <option>Bouarfa</option>
+                <option>Zagora</option>
+                <option>Tinghir</option>
+                <option>Kelaat Sraghna</option>
+                <option>Youssoufia</option>
+                <option>Ben Guerir</option>
+                <option>Kasba Tadla</option>
+                <option>Azilal</option>
+                <option>Chefchaouen</option>
+                <option>Fnideq</option>
+                <option>Martil</option>
+                <option>M'diq</option>
+                <option>Inezgane</option>
+                <option>Dcheira El Jihadia</option>
+                <option>Aït Melloul</option>
+                <option>Biougra</option>
+                <option>Drarga</option>
+                <option>Temara</option>
+                <option>Salé</option>
+                <option>Skhirate</option>
+                <option>Bouskoura</option>
+                <option>Dar Bouazza</option>
+                <option>Oulad Teima</option>
+                <option>Souk El Arbaa</option>
+                <option>Had Soualem</option>
+                <option>Benslimane</option>
+                <option>Médiouna</option>
+                <option>Aïn Sebaa</option>
+                <option>Hay Mohammadi</option>
+                <option>Sidi Bernoussi</option>
+                <option>Aïn Chock</option>
+                <option>Hay Hassani</option>
+                <option value="__autre__">Autre ville...</option>
+              </select>
+            </div>
+
+            <!-- Free-text fallback for "Autre ville" -->
+            <div id="city-text-wrapper">
+              <button type="button" class="city-back-btn" onclick="resetCityToDropdown()" aria-label="Revenir à la liste des villes">
+                ← Choisir dans la liste
+              </button>
+              <input type="text" id="city-text" class="form-control" placeholder="Entrez votre ville" aria-label="Nom de votre ville">
+            </div>
+
+            <div class="field-error" id="city-error">Veuillez sélectionner ou entrer votre ville.</div>
+          </div>
+
+          <!-- Address -->
+          <div class="form-group">
+            <label for="address">Adresse complète <span>*</span></label>
+            <input type="text" id="address" name="address" class="form-control" placeholder="Numéro, rue, quartier..." autocomplete="street-address" required aria-required="true" aria-describedby="address-error">
+            <div class="field-error" id="address-error">Veuillez entrer votre adresse.</div>
+          </div>
+
+          <!-- Submit -->
+          <button type="submit" class="submit-btn" id="submit-btn" aria-label="Confirmer la commande">
+            <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/></svg>
+            <span id="submit-text">Confirmer ma commande</span>
+            <div class="spinner" id="submit-spinner" aria-hidden="true"></div>
+          </button>
+
+          <p class="form-note">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+            Vous payez uniquement à la réception — aucun paiement en ligne requis.
+          </p>
+        </form>
+      </div>
+
+      <!-- Success Screen -->
+      <div class="success-screen" id="success-msg" role="alert" aria-live="polite">
+        <div class="success-check-wrap">
+          <svg class="success-checkmark" viewBox="0 0 52 52" aria-hidden="true">
+            <circle class="success-check-circle" cx="26" cy="26" r="25" fill="none"/>
+            <path class="success-check-path" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+          </svg>
+        </div>
+        <span class="success-flag" aria-hidden="true">🇲🇦</span>
+        <h3 class="success-title">Commande confirmée !</h3>
+        <div class="success-summary" aria-label="Récapitulatif de commande">
+          <div class="success-row">
+            <span class="success-row-label">Pack</span>
+            <span class="success-row-value" id="s-pack">—</span>
+          </div>
+          <div class="success-row">
+            <span class="success-row-label">Couleur</span>
+            <span class="success-row-value" id="s-color">—</span>
+          </div>
+          <div class="success-row success-row-total">
+            <span class="success-row-label">Total</span>
+            <span class="success-row-value" id="s-total">—</span>
+          </div>
+        </div>
+        <p class="success-message">Notre équipe vous contactera dans les <strong>24h</strong> pour confirmer votre livraison. Vous payez uniquement à la réception.</p>
+        <div class="success-actions">
+          <button class="success-btn-reset" type="button" onclick="resetForm()" aria-label="Continuer mes achats">
+            <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
+            Continuer mes achats
+          </button>
+          <a class="success-btn-share" id="success-share-btn" href="#" target="_blank" rel="noopener noreferrer" aria-label="Partager sur WhatsApp">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" width="18" height="18"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.117.553 4.103 1.523 5.823L0 24l6.348-1.503A11.956 11.956 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.844 0-3.572-.49-5.063-1.346l-.364-.215-3.768.892.919-3.668-.238-.378A9.959 9.959 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+            Partager sur WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Gallery Section -->
+<section class="gallery" id="galerie" aria-labelledby="gallery-heading">
+  <p class="section-label">Galerie</p>
+  <h2 class="section-title" id="gallery-heading">L'artisanat <span>en images</span></h2>
+  <p class="section-desc">Chaque pièce est fabriquée à la main par des artisans marocains — unicité et authenticité garanties.</p>
+
+  <div class="gallery-grid" role="list">
+    <div class="gallery-item" role="listitem">
+      <img src="./images/galerie-collage-styles-multiples.webp" alt="Sac en paille porté de plusieurs façons – collage de styles" loading="lazy" width="600" height="600">
+      <div class="gallery-overlay">
+        <div class="gallery-overlay-text">
+          <strong>Un sac, plusieurs styles</strong>
+          <span>S'adapte à toutes tes sorties</span>
+        </div>
+      </div>
+    </div>
+    <div class="gallery-item" role="listitem">
+      <img src="./images/galerie-coucher-soleil-plage.webp" alt="Sac en paille porté au coucher du soleil sur la plage" loading="lazy" width="400" height="400">
+      <div class="gallery-overlay">
+        <div class="gallery-overlay-text">
+          <strong>L'élégance au coucher du soleil</strong>
+          <span>Ton compagnon d'été</span>
+        </div>
+      </div>
+    </div>
+    <div class="gallery-item" role="listitem">
+      <img src="./images/galerie-the-marocain-riad.webp" alt="Sac en paille posé dans un riad marocain lors d'un thé" loading="lazy" width="400" height="400">
+      <div class="gallery-overlay">
+        <div class="gallery-overlay-text">
+          <strong>Une touche d'authenticité</strong>
+          <span>L'artisanat marocain à l'honneur</span>
+        </div>
+      </div>
+    </div>
+    <div class="gallery-item" role="listitem">
+      <img src="./images/galerie-piscine-luxe.webp" alt="Sac en paille au bord d'une piscine de luxe" loading="lazy" width="400" height="400">
+      <div class="gallery-overlay">
+        <div class="gallery-overlay-text">
+          <strong>Détente au bord de l'eau</strong>
+          <span>Le luxe à chaque escapade</span>
+        </div>
+      </div>
+    </div>
+    <div class="gallery-item" role="listitem">
+      <img src="./images/galerie-capacite-rangement.webp" alt="Intérieur spacieux du sac en paille – capacité de rangement" loading="lazy" width="400" height="400">
+      <div class="gallery-overlay">
+        <div class="gallery-overlay-text">
+          <strong>Spacieux et pratique</strong>
+          <span>Tout ce dont tu as besoin, en un sac</span>
+        </div>
+      </div>
+    </div>
+    <div class="gallery-item" role="listitem">
+      <img src="./images/galerie-interieur-doublure-qualite.webp" alt="Doublure intérieure de qualité du sac en paille" loading="lazy" width="400" height="400">
+      <div class="gallery-overlay">
+        <div class="gallery-overlay-text">
+          <strong>Une finition soignée</strong>
+          <span>Doublure résistante, qualité durable</span>
+        </div>
+      </div>
+    </div>
+    <div class="gallery-item" role="listitem">
+      <img src="./images/lifestyle-femme-pack-sable-noir-essaouira-2.webp" alt="Femme élégante face à l'océan à Essaouira avec sac en paille" loading="lazy" width="900" height="1125">
+      <div class="gallery-overlay">
+        <div class="gallery-overlay-text">
+          <strong>Élégance face à l'océan</strong>
+          <span>Le charme intemporel d'Essaouira</span>
+        </div>
+      </div>
+    </div>
+    <div class="gallery-item" role="listitem">
+      <img src="./images/lifestyle-femme-pack-sable-noir-plage.webp" alt="Femme en bord de mer avec sac et chapeau en paille Sable & Noir" loading="lazy" width="900" height="1125">
+      <div class="gallery-overlay">
+        <div class="gallery-overlay-text">
+          <strong>Liberté en bord de mer</strong>
+          <span>Chaque pas, un moment de grâce</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Colors Section -->
+<section class="colors" aria-labelledby="colors-heading">
+  <p class="section-label">Coloris disponibles</p>
+  <h2 class="section-title" id="colors-heading">Sac <span>&</span> chapeau assortis</h2>
+  <p class="section-desc">Une seule couleur choisie habille les deux pièces — un look coordonné sans effort.</p>
+  <div class="colors-grid" role="list">
+    <div class="color-item" role="listitem">
+      <div class="color-swatch sable-noir" aria-label="Coloris Sable & Noir"></div>
+      <div class="color-name">Sable & Noir</div>
+    </div>
+    <div class="color-item" role="listitem">
+      <div class="color-swatch sable-beige" aria-label="Coloris Sable & Blanc"></div>
+      <div class="color-name">Sable & Blanc</div>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials -->
+<section class="testimonials" aria-labelledby="testimonials-heading">
+  <p class="section-label">Avis clients</p>
+  <h2 class="section-title" id="testimonials-heading">Ce que disent <span>nos clientes</span></h2>
+  <p class="section-desc">Des centaines de clientes satisfaites à travers tout le Maroc.</p>
+
+  <div class="testimonials-grid" role="list">
+    <div class="testimonial-card" role="listitem">
+      <div class="testimonial-stars" aria-label="5 étoiles sur 5">
+        <span class="star" aria-hidden="true">★</span><span class="star" aria-hidden="true">★</span><span class="star" aria-hidden="true">★</span><span class="star" aria-hidden="true">★</span><span class="star" aria-hidden="true">★</span>
+      </div>
+      <p class="testimonial-text">"Magnifique qualité ! Le sac et le chapeau sont encore plus beaux en vrai qu'en photo. J'ai commandé le coloris Sable &amp; Blanc — ravie de mon achat. Livraison rapide à Casablanca !"</p>
+      <div class="testimonial-author">
+        <div class="author-avatar" aria-hidden="true">S</div>
+        <div>
+          <div class="author-name">Salma B.</div>
+          <div class="author-city">Casablanca</div>
+        </div>
+      </div>
+    </div>
+    <div class="testimonial-card" role="listitem">
+      <div class="testimonial-stars" aria-label="5 étoiles sur 5">
+        <span class="star" aria-hidden="true">★</span><span class="star" aria-hidden="true">★</span><span class="star" aria-hidden="true">★</span><span class="star" aria-hidden="true">★</span><span class="star" aria-hidden="true">★</span>
+      </div>
+      <p class="testimonial-text">"J'adore le Pack Paille &amp; Soleil — j'ai reçu mon sac et mon chapeau parfaitement assortis ! Le paiement à la livraison m'a convaincue de commander sans hésitation."</p>
+      <div class="testimonial-author">
+        <div class="author-avatar" aria-hidden="true">F</div>
+        <div>
+          <div class="author-name">Fatima Z.</div>
+          <div class="author-city">Marrakech</div>
+        </div>
+      </div>
+    </div>
+    <div class="testimonial-card" role="listitem">
+      <div class="testimonial-stars" aria-label="5 étoiles sur 5">
+        <span class="star" aria-hidden="true">★</span><span class="star" aria-hidden="true">★</span><span class="star" aria-hidden="true">★</span><span class="star" aria-hidden="true">★</span><span class="star" aria-hidden="true">★</span>
+      </div>
+      <p class="testimonial-text">"La qualité artisanale est incroyable. Le tressage est soigné et le chapeau tient très bien. J'ai choisi le marron foncé — parfait pour toutes les occasions !"</p>
+      <div class="testimonial-author">
+        <div class="author-avatar" aria-hidden="true">N</div>
+        <div>
+          <div class="author-name">Nadia M.</div>
+          <div class="author-city">Agadir</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="footer-logo">
+    Paille &amp; Soleil
+    <span aria-label="Maroc">🇲🇦</span>
+  </div>
+  <p class="footer-text">
+    Artisanat marocain authentique — sacs et chapeaux en paille fabriqués à la main.<br>
+    Livraison gratuite partout au Maroc. Paiement à la livraison.
+  </p>
+  <hr class="footer-divider">
+  <p class="footer-copy">&copy; 2026 Paille &amp; Soleil — Tous droits réservés</p>
+</footer>
+
+<!-- Floating CTA -->
+<div class="floating-cta" id="floating-cta" aria-hidden="true">
+  <a href="#commander">
+    <div class="floating-cta-pulse"></div>
+    Commander maintenant
+  </a>
+</div>
+
+<!-- Social Proof Popup -->
+<div class="sp-popup" id="sp-popup" role="status" aria-live="polite" aria-label="Activité récente">
+  <div class="sp-avatar" id="sp-avatar" aria-hidden="true">F</div>
+  <div class="sp-text">
+    <div class="sp-name" id="sp-name">Fatima de Casablanca</div>
+    <div class="sp-detail" id="sp-detail">vient de commander le Pack Paille &amp; Soleil 🌿</div>
+    <div class="sp-time" id="sp-time">il y a 3 min</div>
+  </div>
+  <button class="sp-close" onclick="dismissPopup()" aria-label="Fermer">×</button>
+</div>
+
+<script>
+  if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+  if (window.location.hash) history.replaceState(null, '', window.location.pathname + window.location.search);
+  window.scrollTo(0, 0);
+
+  // ─── HERO: VIDEO (DESKTOP) + SLIDESHOW (MOBILE) ───
+  (function() {
+    var vid = document.querySelector('.hero-video');
+    if (vid) {
+      var tryPlay = function() { if (vid.paused) { vid.muted = true; vid.play().catch(function(){}); } };
+      if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', tryPlay);
+      else tryPlay();
+      window.addEventListener('load', tryPlay);
+      document.addEventListener('touchstart', tryPlay, { once: true, passive: true });
+      document.addEventListener('scroll', tryPlay, { once: true, passive: true });
+    }
+    var slides = document.querySelectorAll('.hero .hero-slide');
+    if (slides.length) {
+      var current = 0;
+      var goTo = function(n) {
+        slides[current].classList.remove('is-active');
+        current = (n + slides.length) % slides.length;
+        slides[current].classList.add('is-active');
+      };
+      setInterval(function() { goTo(current + 1); }, 2000);
+    }
+  })();
+
+
+  // ─── COLOR PICKER SWITCHER ───
+  function updateColorPickers() {
+    var c1Label  = document.getElementById('color1-label');
+    var c2Group  = document.getElementById('color2-group');
+    var c2Label  = document.getElementById('color2-label');
+    var qty      = parseInt(document.getElementById('qty').value, 10) || 1;
+    var show2    = qty >= 2;
+
+    c1Label.innerHTML = show2
+      ? 'Couleur de l\'ensemble 1 <span style="color:var(--gold-dark)">*</span>'
+      : 'Couleur de votre ensemble (sac + chapeau) <span style="color:var(--gold-dark)">*</span>';
+    if (show2) c2Label.innerHTML = 'Couleur de l\'ensemble 2 <span style="color:var(--gold-dark)">*</span>';
+
+    c2Group.style.display = show2 ? 'block' : 'none';
+    document.getElementById('qty-group').style.display = '';
+  }
+  updateColorPickers(); // init on load
+
+  // ─── PACK CARD SELECTION ───
+  function selectPackVariant(colorValue) {
+    // Highlight selected card
+    document.querySelectorAll('.pack-card').forEach(function(c) { c.classList.remove('selected'); });
+    var card = document.querySelector('.pack-card[data-color="' + colorValue + '"]');
+    if (card) card.classList.add('selected');
+    // Pre-select matching color radio in form
+    var radio = document.querySelector('input[name="color"][value="' + colorValue + '"]');
+    if (radio) radio.checked = true;
+    updateColorPickers();
+    document.getElementById('commander').scrollIntoView({ behavior: 'smooth' });
+  }
+
+  // ─── QUANTITY ───
+  function changeQty(delta) {
+    var input = document.getElementById('qty');
+    var val = parseInt(input.value, 10) || 1;
+    input.value = Math.max(1, Math.min(10, val + delta));
+    updateColorPickers();
+  }
+
+  // ─── CITY SWITCHER ───
+  function handleCityChange(sel) {
+    if (sel.value === '__autre__') {
+      document.getElementById('city-select-wrapper').style.display = 'none';
+      document.getElementById('city-text-wrapper').style.display = 'block';
+      document.getElementById('city-text').focus();
+    }
+    clearError('city', 'city-error');
+  }
+  function resetCityToDropdown() {
+    document.getElementById('city').value = '';
+    document.getElementById('city-select-wrapper').style.display = 'block';
+    document.getElementById('city-text-wrapper').style.display = 'none';
+    document.getElementById('city-text').value = '';
+  }
+  function getCityValue() {
+    const selectWrapper = document.getElementById('city-select-wrapper');
+    if (selectWrapper.style.display === 'none') {
+      return document.getElementById('city-text').value.trim();
+    }
+    const v = document.getElementById('city').value;
+    return v === '__autre__' ? '' : v;
+  }
+
+  // ─── FLOATING CTA ───
+  const floatingCta = document.getElementById('floating-cta');
+  var _orderVisible = false;
+  var _packsVisible = false;
+  function _syncFloatingCta() {
+    var hide = _orderVisible || _packsVisible;
+    floatingCta.classList.toggle('visible', !hide);
+    floatingCta.setAttribute('aria-hidden', hide ? 'true' : 'false');
+  }
+  new IntersectionObserver(function(entries) {
+    entries.forEach(function(e) { _orderVisible = e.isIntersecting; _syncFloatingCta(); });
+  }, { threshold: 0.1 }).observe(document.getElementById('commander'));
+  new IntersectionObserver(function(entries) {
+    entries.forEach(function(e) { _packsVisible = e.isIntersecting; _syncFloatingCta(); });
+  }, { threshold: 0 }).observe(document.getElementById('packs'));
+
+  // ─── FORM VALIDATION ───
+  function showError(id, msgId) {
+    const el = document.getElementById(id);
+    const msg = document.getElementById(msgId);
+    if (el) el.classList.add('error');
+    if (msg) msg.style.display = 'block';
+  }
+  function clearError(id, msgId) {
+    const el = document.getElementById(id);
+    const msg = document.getElementById(msgId);
+    if (el) el.classList.remove('error');
+    if (msg) msg.style.display = 'none';
+  }
+
+  ['name', 'phone', 'address'].forEach(function(f) {
+    const el = document.getElementById(f);
+    if (el) el.addEventListener('input', function() { clearError(f, f + '-error'); });
+  });
+  document.getElementById('city').addEventListener('change', function() { clearError('city', 'city-error'); });
+  document.getElementById('city-text').addEventListener('input', function() { clearError('city', 'city-error'); });
+
+  function validateForm() {
+    let ok = true;
+    const pack = document.querySelector('input[name="pack"]:checked');
+    if (!pack) { document.getElementById('pack-error').style.display = 'block'; ok = false; }
+    else document.getElementById('pack-error').style.display = 'none';
+
+    if (!document.getElementById('name').value.trim()) { showError('name', 'name-error'); ok = false; }
+    const phone = document.getElementById('phone').value.trim();
+    if (!phone || phone.replace(/\D/g, '').length < 9) { showError('phone', 'phone-error'); ok = false; }
+    if (!getCityValue()) { showError('city', 'city-error'); ok = false; }
+    if (!document.getElementById('address').value.trim()) { showError('address', 'address-error'); ok = false; }
+
+    return ok;
+  }
+
+  // ─── FORM SUBMIT ───
+  const urlParams = new URLSearchParams(window.location.search);
+  const source = urlParams.get('src') || 'direct';
+
+  document.getElementById('order-form').addEventListener('submit', async function(e) {
+    e.preventDefault();
+    if (!validateForm()) return;
+
+    const btn = document.getElementById('submit-btn');
+    const spinner = document.getElementById('submit-spinner');
+    const submitText = document.getElementById('submit-text');
+    btn.disabled = true;
+    spinner.style.display = 'block';
+    submitText.textContent = 'Envoi en cours...';
+
+    const packEl          = document.querySelector('input[name="pack"]:checked');
+    const price           = parseInt(packEl.dataset.price, 10);
+    const couleur         = document.querySelector('input[name="color"]:checked').value;
+    const color2Group     = document.getElementById('color2-group');
+    const couleur2        = color2Group.style.display !== 'none'
+                            ? document.querySelector('input[name="color2"]:checked').value
+                            : '';
+    const quantite  = parseInt(document.getElementById('qty').value, 10);
+    const total     = price * quantite;
+    const packLabel = packEl.value;
+    const nom         = document.getElementById('name').value.trim();
+    const telephone   = document.getElementById('phone').value.trim();
+    const ville       = getCityValue();
+    const adresse     = document.getElementById('address').value.trim();
+    const timestamp   = new Date().toLocaleString('fr-MA', { timeZone: 'Africa/Casablanca' });
+
+    // Payload exactly matching Apps Script expectations
+    const orderData = {
+      nom,
+      telephone,
+      ville,
+      adresse,
+      product: 'Paille & Soleil - Sac et Chapeau',
+      pack: packLabel,
+      quantite,
+      total,
+      couleur,
+      couleur2,
+      source,
+      timestamp
+    };
+
+    const totalVal = total;
+    try { fbq('track','Lead',{ content_name:packLabel, content_type:'product', currency:'MAD', value:totalVal }); } catch(_){}
+    try { fbq('track','InitiateCheckout',{ content_name:packLabel, content_type:'product', currency:'MAD', value:totalVal }); } catch(_){}
+    try { ttq.track('InitiateCheckout',{ content_name:packLabel, currency:'MAD', value:totalVal }); } catch(_){}
+
+    const SHEET_URL = 'https://script.google.com/macros/s/AKfycbxxjvToE8zZnvaB9RtkwBXD1vlTSxyr5x8Ng3ZAzOVDqMVNnGKtTmKhKIFjd4CQx8FHXA/exec';
+    const TG_BOT    = '8717009215:AAFDH6FBbBr9xepq8j9wXGoO96idGSQyHu8';
+    const TG_CHAT   = '8600859419';
+
+    const couleurLine = couleur2
+      ? '🎨 Couleur 1: ' + couleur + '\n🎨 Couleur 2: ' + couleur2
+      : '🎨 Couleur: '   + couleur;
+    const tgMsg = [
+      '🌿 Nouvelle commande Paille & Soleil!',
+      '',
+      '📦 Pack: '    + packLabel,
+      '🔢 Qté: '     + quantite,
+      couleurLine,
+      '👤 Nom: '     + nom,
+      '📞 Tél: '     + telephone,
+      '🏙️ Ville: '   + ville,
+      '📍 Adresse: ' + adresse,
+      '💰 Total: '   + total + ' DH'
+    ].join('\n');
+
+    try { fbq('track','Purchase',{ content_name:packLabel, content_type:'product', currency:'MAD', value:totalVal }); } catch(_){}
+    try { ttq.track('PlaceAnOrder',{ content_name:packLabel, currency:'MAD', value:totalVal }); } catch(_){}
+
+    try {
+      await fetch(SHEET_URL, {
+        method: 'POST',
+        mode: 'no-cors',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(orderData)
+      });
+    } catch(err) { console.warn('Google Sheet:', err); }
+
+    try {
+      await fetch('https://api.telegram.org/bot' + TG_BOT + '/sendMessage', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ chat_id: TG_CHAT, text: tgMsg })
+      });
+    } catch(err) { console.warn('Telegram:', err); }
+
+    document.getElementById('s-pack').textContent = packLabel;
+    document.getElementById('s-color').textContent = couleur2 ? couleur + ' / ' + couleur2 : couleur;
+    document.getElementById('s-total').textContent = total + ' DH';
+    document.getElementById('success-share-btn').href = 'https://wa.me/?text=' + encodeURIComponent("🌿 J'ai trouvé des sacs et chapeaux en paille artisanaux du Maroc!\nPack Paille & Soleil à seulement 249 DH 🎉\nLivraison gratuite + Paiement à la livraison 🚚\n👉 https://strawbag.pages.dev");
+
+    document.getElementById('form-container').style.display = 'none';
+    const successEl = document.getElementById('success-msg');
+    successEl.classList.add('visible');
+    successEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    floatingCta.classList.remove('visible');
+  });
+
+  // ─── RESET FORM ───
+  function resetForm() {
+    document.getElementById('name').value = '';
+    document.getElementById('phone').value = '';
+    document.getElementById('address').value = '';
+    document.getElementById('qty').value = 1;
+    document.getElementById('qty-group').style.display = '';
+    document.getElementById('pack-duo').checked = true;
+    document.getElementById('color-beige').checked = true;
+    document.getElementById('color2-beige').checked = true;
+    document.getElementById('color2-group').style.display = 'none';
+    document.querySelectorAll('.pack-card').forEach(function(c) { c.classList.remove('selected'); });
+    resetCityToDropdown();
+    updateColorPickers();
+    ['name','phone','address'].forEach(function(f) { clearError(f, f+'-error'); });
+    clearError('city','city-error');
+    document.getElementById('pack-error').style.display = 'none';
+    const btn = document.getElementById('submit-btn');
+    btn.disabled = false;
+    document.getElementById('submit-spinner').style.display = 'none';
+    document.getElementById('submit-text').textContent = 'Confirmer ma commande';
+    document.getElementById('success-msg').classList.remove('visible');
+    document.getElementById('form-container').style.display = 'block';
+    document.getElementById('pack-section').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  // ─── PROMO COUNTDOWN ───
+  (function() {
+    var DURATION_MS = 48 * 60 * 60 * 1000; // 48 hours
+    var KEY = 'sb_promo_end';
+
+    function getOrCreateEnd() {
+      var v = parseInt(localStorage.getItem(KEY), 10);
+      if (!v || v <= Date.now()) {
+        v = Date.now() + DURATION_MS;
+        localStorage.setItem(KEY, v);
+      }
+      return v;
+    }
+
+    function pad(n) { return String(n).padStart(2, '0'); }
+
+    function tick() {
+      var el = document.getElementById('promo-countdown');
+      if (!el) return;
+      var rem = Math.max(0, Math.floor((getOrCreateEnd() - Date.now()) / 1000));
+      var d = Math.floor(rem / 86400);
+      var h = Math.floor((rem % 86400) / 3600);
+      var m = Math.floor((rem % 3600) / 60);
+      var s = rem % 60;
+      el.textContent = pad(d) + 'J ' + pad(h) + 'H ' + pad(m) + 'M ' + pad(s) + 'S';
+    }
+
+    tick();
+    setInterval(tick, 1000);
+  })();
+
+  // ─── SOCIAL PROOF POPUP ───
+  const spData = [
+    { name:'Fatima',   city:'Casablanca',   pack:'Pack Paille & Soleil – Sable & Noir',   mins:2  },
+    { name:'Khadija',  city:'Rabat',        pack:'Pack Paille & Soleil – Sable & Blanc',  mins:5  },
+    { name:'Nadia',    city:'Marrakech',    pack:'Pack Paille & Soleil – Sable & Noir',     mins:8  },
+    { name:'Zineb',    city:'Agadir',       pack:'Pack Paille & Soleil – Sable & Noir',   mins:1  },
+    { name:'Layla',    city:'Fès',          pack:'Pack Paille & Soleil – Sable & Blanc',  mins:12 },
+    { name:'Meryem',   city:'Tanger',       pack:'Pack Paille & Soleil – Sable & Blanc',    mins:3  },
+    { name:'Imane',    city:'Meknès',       pack:'Pack Paille & Soleil – Sable & Noir',   mins:7  },
+    { name:'Sara',     city:'Oujda',        pack:'Pack Paille & Soleil – Sable & Blanc',  mins:15 },
+    { name:'Houda',    city:'Kénitra',      pack:'Pack Paille & Soleil – Sable & Noir',     mins:4  },
+    { name:'Asmaa',    city:'Tétouan',      pack:'Pack Paille & Soleil – Sable & Noir',   mins:9  },
+    { name:'Loubna',   city:'El Jadida',    pack:'Pack Paille & Soleil – Sable & Blanc',  mins:6  },
+    { name:'Hajar',    city:'Béni Mellal',  pack:'Pack Paille & Soleil – Sable & Blanc',    mins:11 },
+    { name:'Soukaina', city:'Chefchaouen',  pack:'Pack Paille & Soleil – Sable & Noir',   mins:2  },
+    { name:'Widad',    city:'Essaouira',    pack:'Pack Paille & Soleil – Sable & Blanc',  mins:18 },
+    { name:'Hanane',   city:'Ouarzazate',   pack:'Pack Paille & Soleil – Sable & Noir',     mins:14 },
+  ];
+  let spIndex = 0;
+  let spDismissed = false;
+
+  function showSocialProof() {
+    if (spDismissed) return;
+    const d = spData[spIndex % spData.length];
+    spIndex++;
+    document.getElementById('sp-avatar').textContent = d.name[0];
+    document.getElementById('sp-name').textContent   = d.name + ' de ' + d.city;
+    document.getElementById('sp-detail').textContent = 'vient de commander le ' + d.pack + ' 🌿';
+    document.getElementById('sp-time').textContent   = 'il y a ' + d.mins + ' min';
+    const popup = document.getElementById('sp-popup');
+    popup.classList.add('show');
+    setTimeout(function() { popup.classList.remove('show'); }, 5000);
+  }
+  function dismissPopup() {
+    document.getElementById('sp-popup').classList.remove('show');
+    spDismissed = true;
+    setTimeout(function() { spDismissed = false; }, 120000);
+  }
+
+  // ─── PACK CARD SLIDESHOWS (cross-fade like hero — 0.8s opacity, 3s interval) ───
+  document.querySelectorAll('.pack-card').forEach(function(card) {
+    var slides = card.querySelectorAll('.pack-slide');
+    if (slides.length < 2) return;
+    var current = 0;
+    setInterval(function() {
+      slides[current].classList.remove('is-active');
+      current = (current + 1) % slides.length;
+      slides[current].classList.add('is-active');
+    }, 3000);
+  });
+
+
+
+  // First popup at 8s, then random 30–45s intervals
+  setTimeout(function() {
+    showSocialProof();
+    setInterval(function() {
+      var delay = 30000 + Math.random() * 15000;
+      setTimeout(showSocialProof, delay);
+    }, 45000);
+  }, 8000);
+
+</script>
+
+<script>
+  window.addEventListener('load', function() {
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init','981839400957716');
+    fbq('track','PageView');
+    fbq('track','ViewContent',{ content_name:'Paille & Soleil - Sac et Chapeau', content_type:'product', currency:'MAD' });
+    !function(w,d,t){w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var r="https://analytics.tiktok.com/i18n/pixel/events.js",o=n&&n.partner;ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=r,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=d.createElement("script");n.type="text/javascript";n.async=!0;n.src=r+"?sdkid="+e+"&lib="+t;e=d.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};ttq.load('D7PS3TJC77U471PH3140');ttq.page();}(window,document,'ttq');
+  }, {once: true});
+</script>
+</body>
+</html>
